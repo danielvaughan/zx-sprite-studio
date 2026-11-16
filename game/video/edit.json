@@ -1,0 +1,64 @@
+{
+ "title": "Sprite Studio",
+ "subtitle": "ZX Spectrum 128K",
+ "title_card": 0,
+ "end_card": 0,
+ "fade_in": 0.001,
+ "fade_out": 0.001,
+ "segments": [
+  {
+   "name": "start and desk",
+   "recipe": "recipes/tut-start-desk.json",
+   "from": 410,
+   "to": 1450
+  },
+  {
+   "name": "lesson 1",
+   "recipe": "recipes/tut-lesson1.json",
+   "from": 250,
+   "to": 3130
+  },
+  {
+   "name": "lesson 2",
+   "recipe": "recipes/tut-lesson2.json",
+   "from": 235,
+   "to": 1425
+  },
+  {
+   "name": "lesson 4",
+   "recipe": "recipes/tut-lesson4.json",
+   "from": 235,
+   "to": 1145
+  },
+  {
+   "name": "lesson 3",
+   "recipe": "recipes/tut-lesson3.json",
+   "from": 235,
+   "to": 1375
+  },
+  {
+   "name": "lesson 5",
+   "recipe": "recipes/tut-lesson5.json",
+   "from": 235,
+   "to": 1235
+  },
+  {
+   "name": "lesson 6",
+   "recipe": "recipes/tut-lesson6.json",
+   "from": 245,
+   "to": 1775
+  },
+  {
+   "name": "sheet",
+   "recipe": "recipes/tut-sheet.json",
+   "from": 240,
+   "to": 1810
+  },
+  {
+   "name": "sheet saved, export",
+   "recipe": "recipes/tut-sheet.json",
+   "from": 2900,
+   "to": 3080
+  }
+ ]
+}

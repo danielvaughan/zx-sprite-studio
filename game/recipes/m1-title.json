@@ -1,0 +1,1 @@
+{"keys": "100-104:2;110-111:l;126-127:ENTER;150-152:x;170-172:g;200-202:t;250-259:SPACE;260-262:SPACE+2;263-400:SPACE", "frames": 440, "screenshots": [230, 420], "expect": {"state_sequence": [0, 1, 0, 1], "state_at_end": 1, "symbols": [{"symbol": "cur_frame", "at_end": 1}, {"symbol": "play_on", "at_end": 1}, {"symbol": "inked", "at_end": 90}]}}

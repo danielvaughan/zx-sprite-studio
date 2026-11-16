@@ -1,0 +1,1 @@
+{"keys": "100-104:2;110-111:l;126-127:ENTER;250-251:9;320-321:f;380-381:p", "frames": 460, "screenshots": [300, 440], "expect": {"state_at_end": 1, "symbols": [{"symbol": "sh_codes+1", "seen": [3, 6]}, {"symbol": "sh_codes+1", "at_end": 0}, {"symbol": "sh_codes", "at_end": 128}, {"symbol": "sh_face", "at_end": 2}, {"symbol": "sh_pos", "at_end": 1}]}}

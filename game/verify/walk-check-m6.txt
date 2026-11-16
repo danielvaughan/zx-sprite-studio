@@ -1,0 +1,7 @@
+# walk-check, M6, tap sha256 d8bf5be67877068931b33b9fb4fa4e252f7aab752b14b18265b6b47388d19a6f
+# $ZX_PYTHON tools/walk_check.py 6 m5-walk m5-walk32 m5-gorilla-walk m5-click-walk m5-ground-play-h
+PASS  m5-walk: 700 walking frames, drawn at 61 places, at most 24 dots behind; strip compared 140 times (0 facing left off the byte grid)
+PASS  m5-walk32: 323 walking frames, drawn at 42 places, at most 16 dots behind; strip compared 64 times (42 facing left off the byte grid)
+PASS  m5-gorilla-walk: 509 walking frames, drawn at 56 places, at most 16 dots behind; strip compared 101 times (39 facing left off the byte grid)
+PASS  m5-click-walk: 70 walking frames, drawn at 8 places, at most 10 dots behind; strip compared 9 times (0 facing left off the byte grid)
+PASS  m5-ground-play-h: 280 walking frames, drawn at 43 places, at most 14 dots behind; strip compared 53 times (0 facing left off the byte grid)

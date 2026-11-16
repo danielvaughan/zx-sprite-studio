@@ -1,0 +1,5 @@
+# zx-game: build output is not committed except the per-milestone tapes
+build/*
+!build/*.tap
+__pycache__/
+*.pyc

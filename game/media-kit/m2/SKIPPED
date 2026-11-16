@@ -1,0 +1,5 @@
+Owner ruling D-031 (2026-11-11): "This isn't a game it is a tool it should not be reviewed by the
+magazine at this point." Sprite Studio is a tool, not a game: no INK & PAPER review, score, advert or
+poster is made for it. The M2 kit built on 2026-11-11 (commit 20c642c) was withdrawn. The tape-load
+video stays in ../video/ (sprite-studio-m2-load.mp4), with the showcase edit list for a later
+gameplay video.

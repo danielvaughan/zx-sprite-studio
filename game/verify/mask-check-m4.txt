@@ -1,0 +1,3 @@
+# tools/mask_check.py 4 on tap c05a99451bb09b8d06b3621b0ec21bbafeac76b786c6f3531cd54d958b35a7a5
+PASS  106 figures (ring); 0 differences
+PASS  106 figures (shape); 0 differences

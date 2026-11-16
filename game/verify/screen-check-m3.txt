@@ -1,0 +1,25 @@
+# tools/screen_check.py 3 on tap 3b734751d9891c4a5b32432068256529df2c4af1cf3812d4b74f44019e46c85a (every recipe, then 100 idle frames)
+PASS  m1-frames
+PASS  m1-mouse
+PASS  m1-mouse-controls
+PASS  m1-music
+PASS  m1-nomusic
+PASS  m1-paint-keys
+PASS  m1-play
+PASS  m1-repeat
+PASS  m1-start
+PASS  m1-title
+PASS  m1-undo
+PASS  m1-ux-keep
+PASS  m1-ux-undo
+PASS  m2-checks
+PASS  m2-codes
+PASS  m2-drawer
+PASS  m2-mirror-nudge
+PASS  m2-onion
+PASS  m2-showcase
+PASS  m3-all
+PASS  m3-big
+PASS  m3-box
+PASS  m3-library
+PASS  m3-small

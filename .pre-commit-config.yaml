@@ -1,0 +1,54 @@
+minimum_pre_commit_version: '4.0.0'
+# Lint for this repository. Every hook is
+# pinned to a release. Install with `pre-commit install`; check everything with
+# `pre-commit run --all-files`. README.md (Checks) says what each hook does.
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.24.0
+    hooks:
+      - id: markdownlint-cli2
+        language_version: 24.15.0
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-json
+        # JSON with comments: VS Code reads devcontainer.json as JSONC.
+        exclude: ^\.devcontainer/(.*/)?devcontainer\.json$
+      - id: check-toml
+      - id: check-yaml
+      # Generated and pinned files keep their bytes, because something records or regenerates them:
+      # assets/ (zx-assets output; review-hashes.json stamps its finished files), review/, the
+      # build, verify, playtest and media-kit evidence, src/gen/ (generated from assets/) and
+      # src/house/ (house copies pinned by sha256 in SOURCE.json), bot recipes (media-kit edit
+      # lists pin their sha256). Binary data and patches too.
+      # Gitleaks still scans all of them; markdownlint, typos and ruff still read the text ones.
+      - id: end-of-file-fixer
+        exclude: &generated ^(assets/|review/|game/(build|verify|playtest|media-kit|recipes|demo/build|demo/verify|demo/recipes|src/gen|src/house)/)|\.(bin|patch)$
+      - id: trailing-whitespace
+        # Two trailing spaces are a Markdown line break.
+        args: [--markdown-linebreak-ext=md]
+        exclude: *generated
+      - id: check-added-large-files
+        # Tapes, rendered media and art sources are meant to be committed; anything else
+        # over 1 MB is probably an accident.
+        args: [--maxkb=1024]
+        exclude: \.(tap|tzx|scr|png|gif|jpe?g|webp|mp4|webm|mp3|ogg|wav|mid|pdf|psd|kra|xcf)$
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.51.1
+    hooks:
+      - id: typos
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.2
+    hooks:
+      - id: ruff-check
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.11.0.1
+    hooks:
+      - id: shellcheck
+        # Defects only (warnings and errors), like ruff above; info and style notes stay off.
+        args: [--severity=warning]

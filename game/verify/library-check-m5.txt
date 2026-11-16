@@ -1,0 +1,6 @@
+# library-check, M5, tap sha256 12e13d713f38391208bc4c9a705d6708c3d73702e27e908034cf43e28b3b18e7
+# $ZX_PYTHON tools/library_check.py 5
+PASS  line 109 DIZZY    16X24: frames, masks, style 3, ink 2
+PASS  line 132 WALK     32X32: frames, masks, style 3, ink 2
+PASS  line 148 SET 1    8X8: frames, masks, style 3, ink 2
+PASS  bank 4 figures open whole

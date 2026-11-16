@@ -1,0 +1,26 @@
+# zx-game build description (read by scripts/build_game.py and the verifier)
+name: sprite-studio
+machine: 128            # 128 | 48 (48: remove banks:; the source sees MACHINE)
+main: src/main.asm
+start: start            # entry label (RANDOMIZE USR)
+clear: 24575            # BASIC CLEAR: below code_start ($6000 layout: read-only data $6000-$7FFF, code from $8000)
+screen: ../assets/screens/loading.scr   # 6912-byte loading screen: black, lockup A stamped (scripts/house.py stamp)
+code: main.bin          # SAVEBIN file of the resident block (starts at code_start)
+score_format: binary    # bcd | binary
+update_frames: 1        # frames per game update (IM2 counter), D-004
+keys: {left: o, right: p, up: q, down: a, fire: SPACE, start: '2', music: m, mouse: '1', secondary: ENTER, back: t}   # design.md section 4
+controls: [up, down, left, right, fire, secondary, back, mouse]
+latency: {key: p, watch: steer_n, direction: up}   # the Grid Cursor stops at the edge; steer_n counts every step press
+# Game-flow checks (opt-in; zx-game-verify references/checks.md): a 1-frame tap of each toggle
+# registers at every update phase, in the state named (0 title, 1 play)
+toggle_latency: {music: 0}   # no pause
+kempston_absent: true   # nothing fitted on port $1F (floating bus) changes nothing
+audio_sources: {music: [mus_tick], sfx: [sfx_tick]}   # verify attributes each AY write to its player (128K)
+house: dalex            # Dalex Software house style (the default; none opts out): loader text, lockup, footer
+title: SPRITE STUDIO         # the game title in capitals (the BASIC loader prints it)
+tape_name: S.STUDIO      # tape header name: capitals, at most 10 characters, no word cut off
+music_parity: {on: m1-music, off: m1-nomusic}
+smoke_recipes: [m1-start, m1-paint-keys, m1-frames, m2-codes]
+update_budget_t: 45000   # busy T per update (design.md section 3)
+banks: {1: bank1.bin, 4: bank4.bin, 6: bank6.bin}   # the Library (tools/build_library.py); the Start picture
+tape_loader: packed     # one BASIC loader unpacking headerless blocks: the tape grew past 300 s at ROM speed (D-051)

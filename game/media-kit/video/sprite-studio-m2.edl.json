@@ -1,0 +1,55 @@
+{
+ "title": "Sprite Studio",
+ "subtitle": "ZX Spectrum 128K",
+ "title_card": 2.0,
+ "end_card": 4.0,
+ "end_lines": [
+  "Real use, recorded from",
+  "the tape image, with its",
+  "music and sound effects"
+ ],
+ "segments": [
+  {
+   "name": "Start screen and its tune",
+   "inline": {
+    "keys": "",
+    "frames": 400
+   },
+   "from": 10,
+   "to": 340
+  },
+  {
+   "name": "the Desk: HEX beside each row, the flip-book, a copy, tracing paper, a line of ink",
+   "recipe": "recipes/m2-showcase.json",
+   "from": 360,
+   "to": 980
+  },
+  {
+   "name": "mirror, nudge, a check, the two drawers",
+   "recipe": "recipes/m2-showcase.json",
+   "from": 980,
+   "to": 1500
+  },
+  {
+   "name": "a cleared frame and a new shape drawn square by square, played faster",
+   "recipe": "recipes/m2-showcase.json",
+   "from": 1500,
+   "to": 2300
+  }
+ ],
+ "poster": {
+  "segment": 1,
+  "frame": 900
+ },
+ "gif": {
+  "segment": 1,
+  "frame": 520,
+  "seconds": 5
+ },
+ "tuned": {
+  "date": "2026-11-11",
+  "recipe_sha256": {
+   "recipes/m2-showcase.json": "f17527d2c718c2ab2ed766e311d8af885ad03145edfcf250ec7bab193e25d96c"
+  }
+ }
+}

@@ -1,0 +1,21 @@
+# ruff check for the game's Python tools (game/tools/*.py and the like). The games are not
+# Python packages; these are scripts run with the toolkit's interpreter.
+target-version = "py311"
+extend-exclude = ["game/build", "game/media-kit", "game/verify", "game/playtest"]
+
+[lint]
+# Defects only. The compact house style (semicolons, one-line blocks,
+# grouped imports) is intentional, so pycodestyle layout rules and the formatter stay off.
+select = [
+  "E9",    # syntax and I/O errors
+  "F63",   # invalid comparisons
+  "F7",    # misplaced statements
+  "F82",   # undefined names
+  "F811",  # redefined unused names
+  "F841",  # unused locals
+  "PLE",   # pylint errors
+  "B006",  # mutable argument defaults
+  "B015",  # pointless comparisons
+  "B017",  # assertRaises(Exception)
+  "B018",  # useless expressions
+]

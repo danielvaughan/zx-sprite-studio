@@ -1,0 +1,55 @@
+{
+ "about": "The Dalex house code and data each game assembles: house.asm (original), the logo bytes (copies of zx-assets house/dalex), the sting (copies of house-style/sting) and the zx-assets pattern player (for builds without their own). A game gets them with the template (src/house/), so the build needs no include path. Never edit the copies: re-copy from the source and update the sha256s; tests/unit/test_house.py checks every file against its source and both templates against each other.",
+ "owner_decision": "house-style/README.md: lockup A for every game (2026-10-19)",
+ "house_style_commit": "341a669",
+ "files": {
+  "dalex_sting.asm": {
+   "source": "house-style/sting/ay/dalex_sting.asm",
+   "source_sha256": "f688b17a1a9d49762f0b7dcb68072469e5d2071fb9e009bffa1c4c4f2f095cbb",
+   "sha256": "f688b17a1a9d49762f0b7dcb68072469e5d2071fb9e009bffa1c4c4f2f095cbb",
+   "note": "copy: the AY sting song (zx-assets aypattern.py --one-shot, v3; house-style/sting/sting.json)"
+  },
+  "dalex_sting_beeper.asm": {
+   "source": "house-style/sting/beeper/dalex_sting_beeper.asm",
+   "source_sha256": "b12aea83333790da44ac220e815f139b80a2731004b70aea5ad36f0dccf3c06e",
+   "sha256": "4607f92b7114db7edd5bdac571d0e4e6c794ab1d0e6b351aa82eea7ff9b48619",
+   "note": "copy without its \"org $8000\" line (house.asm includes it inside MODULE house_beeper)"
+  },
+  "dalex_sting_steps.asm": {
+   "source": "house-style/sting/beeper/dalex_sting_steps.asm",
+   "source_sha256": "f70c7cbbcb2cb19bcdb3fecbbdeba24b54e352702d2d39536be0fc99e216fb0d",
+   "sha256": "f70c7cbbcb2cb19bcdb3fecbbdeba24b54e352702d2d39536be0fc99e216fb0d",
+   "note": "copy: the beeper sting step table (beeper_build.py)"
+  },
+  "aypat.asm": {
+   "source": "plugins/zx-assets/scripts/z80/aypat.asm",
+   "source_sha256": "913a747fb8ff0219a8ac2e0b76862af11feda5a7a89a2bc4cc5cc167b57b50aa",
+   "sha256": "913a747fb8ff0219a8ac2e0b76862af11feda5a7a89a2bc4cc5cc167b57b50aa",
+   "note": "copy: zx-assets pattern player, for builds without their own (HOUSE_HAVE_AYPAT not defined)"
+  },
+  "aycommon.asm": {
+   "source": "plugins/zx-assets/scripts/z80/aycommon.asm",
+   "source_sha256": "37b7173d633ce736ecbbf8239625c6e30dae55c04dd1e8dc2cb70b1be291a3d2",
+   "sha256": "37b7173d633ce736ecbbf8239625c6e30dae55c04dd1e8dc2cb70b1be291a3d2",
+   "note": "copy: zx-assets shared AY state (ay_shadow, ay_reset), included by aypat.asm"
+  },
+  "aypat_tables.asm": {
+   "source": "plugins/zx-assets/scripts/z80/aypat_tables.asm",
+   "source_sha256": "f9794f36d4b705272d041c3c27950bb131d768a3003d81a128e7c6cda50cd1cc",
+   "sha256": "f9794f36d4b705272d041c3c27950bb131d768a3003d81a128e7c6cda50cd1cc",
+   "note": "copy: zx-assets player tables (aypattern.tables_asm(), identical to the checked-in file)"
+  },
+  "footer-row.bin": {
+   "source": "plugins/zx-assets/house/dalex/footer-row.bin",
+   "source_sha256": "fe135d4783969e1224d505aaaebcc309470c7febcad147e4cddf91305ff143cb",
+   "sha256": "fe135d4783969e1224d505aaaebcc309470c7febcad147e4cddf91305ff143cb",
+   "note": "copy: zx-assets house/dalex footer-row (sha-locked there: SHA256SUMS)"
+  },
+  "ident-core.bin": {
+   "source": "plugins/zx-assets/house/dalex/ident-core.bin",
+   "source_sha256": "cfc8cebe4eb7a731500bd09f70bc4dd94e4a72b4cbd5fd63bf3a648d7e64714c",
+   "sha256": "cfc8cebe4eb7a731500bd09f70bc4dd94e4a72b4cbd5fd63bf3a648d7e64714c",
+   "note": "copy: zx-assets house/dalex ident-core (sha-locked there: SHA256SUMS)"
+  }
+ }
+}

@@ -1,0 +1,6 @@
+# export-check, M6, tap sha256 d8bf5be67877068931b33b9fb4fa4e252f7aab752b14b18265b6b47388d19a6f
+# $ZX_PYTHON tools/export_check.py 6
+Mower: 16X16, 2 frames: 958 bytes of text, header "MOWER", assembled to 128 bytes = pictures and masks; "; MOWER 16X16, 2 FRAMES: PICTURES, THEN MASKS (SPRITE STUDIO)"
+AC-28: data size 768 = 2 x 1 x 8 x 16 x 3 (and as many for the mask)
+Gorilla run: 32X32, 4 frames: 5696 bytes of text, header "GORILLA", assembled to 1024 bytes = pictures and masks; "; GORILLA 32X32, 4 FRAMES: PICTURES, THEN MASKS (SPRITE STUDIO)"
+PASS  export: DEFB text assembles to the figure

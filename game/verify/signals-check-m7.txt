@@ -1,0 +1,10 @@
+# signals-check, M7, tap sha256 d5d367981b573fab9cb264ee82812e05d92c181ca2935db8047a1b0670839e91
+# $ZX_PYTHON tools/signals_check.py 7
+PASS  input chosen (2): event 15, sound [3], heard
+PASS  control used (N, tracing paper): event 23, sound [1], heard
+PASS  refused (Z on the first frame): event 16, sound [2], heard
+PASS  painting (SPACE): event 1, sound none
+PASS  undo (U): event 8, sound [4], heard
+PASS  redo (U again): event 9, sound [4], heard
+PASS  sheet saved (S on the Sheet page): event 9, sound [3], heard
+PASS  signals: every signal has its twin and its sound

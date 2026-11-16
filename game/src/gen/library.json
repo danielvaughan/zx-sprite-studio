@@ -1,0 +1,2267 @@
+{
+ "games": [
+  "MOWER MAYHEM",
+  "TIGER GORILLA",
+  "GOLD MASTER",
+  "ANTIGRAVITY",
+  "ALL DISCO",
+  "WOLF"
+ ],
+ "lines": 149,
+ "figures": [
+  {
+   "game": "MOWER MAYHEM",
+   "character": "BEAM",
+   "figure": "SET 1",
+   "box": [
+    32,
+    16
+   ],
+   "frames": 1,
+   "source": "zx-mower-mayhem/assets/sprites/beam.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "beam_h"
+   ],
+   "bank": 1,
+   "addr": 53920
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "BEAM",
+   "figure": "SET 2",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 1,
+   "source": "zx-mower-mayhem/assets/sprites/beam.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "beam_v"
+   ],
+   "bank": 1,
+   "addr": 54048
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "BEAM",
+   "figure": "SET 3",
+   "box": [
+    24,
+    24
+   ],
+   "frames": 1,
+   "source": "zx-mower-mayhem/assets/sprites/beam.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "beam_d"
+   ],
+   "bank": 1,
+   "addr": 54240
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "BIRD",
+   "figure": "PECK",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/bird.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "bird_stand",
+    "bird_peck"
+   ],
+   "bank": 1,
+   "addr": 54384
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "BIRD",
+   "figure": "FLY",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/bird.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "bird_fly_up",
+    "bird_fly_down"
+   ],
+   "bank": 1,
+   "addr": 54512
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "BIRD",
+   "figure": "ARRIVE",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/bird.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "bird_arrive_up",
+    "bird_arrive_down"
+   ],
+   "bank": 1,
+   "addr": 54640
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "BURST",
+   "figure": "BURST",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/burst.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "burst0",
+    "burst1"
+   ],
+   "bank": 1,
+   "addr": 54768
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "CAT PEEK",
+   "figure": "PEEK",
+   "box": [
+    8,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/cat-peek.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "peek0",
+    "peek1"
+   ],
+   "bank": 1,
+   "addr": 54896
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "CAT",
+   "figure": "RUN",
+   "box": [
+    24,
+    16
+   ],
+   "frames": 4,
+   "source": "zx-mower-mayhem/assets/sprites/cat.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "cat_run0",
+    "cat_run1",
+    "cat_run2",
+    "cat_run3"
+   ],
+   "bank": 1,
+   "addr": 54960
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "CAT",
+   "figure": "POSES",
+   "box": [
+    24,
+    16
+   ],
+   "frames": 1,
+   "source": "zx-mower-mayhem/assets/sprites/cat.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "cat_hop"
+   ],
+   "bank": 1,
+   "addr": 55344
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "HEDGEHOG",
+   "figure": "SCURRY E",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/hedgehog.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "hog_scurry_a_e",
+    "hog_scurry_b_e"
+   ],
+   "bank": 1,
+   "addr": 55440
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "HEDGEHOG",
+   "figure": "SCURRY S",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/hedgehog.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "hog_scurry_a_s",
+    "hog_scurry_b_s"
+   ],
+   "bank": 1,
+   "addr": 55568
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "HEDGEHOG",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 3,
+   "source": "zx-mower-mayhem/assets/sprites/hedgehog.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "hog_sit_e",
+    "hog_sit_s",
+    "hog_curled"
+   ],
+   "bank": 1,
+   "addr": 55696
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "ROLL E",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mower_roll_a_e",
+    "mower_roll_b_e"
+   ],
+   "bank": 1,
+   "addr": 55888
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "ROLL SE",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mower_roll_a_se",
+    "mower_roll_b_se"
+   ],
+   "bank": 1,
+   "addr": 56016
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "ROLL S",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mower_roll_a_s",
+    "mower_roll_b_s"
+   ],
+   "bank": 1,
+   "addr": 56144
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "ROLL SW",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mower_roll_a_sw",
+    "mower_roll_b_sw"
+   ],
+   "bank": 1,
+   "addr": 56272
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "ROLL W",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mower_roll_a_w",
+    "mower_roll_b_w"
+   ],
+   "bank": 1,
+   "addr": 56400
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "ROLL NW",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mower_roll_a_nw",
+    "mower_roll_b_nw"
+   ],
+   "bank": 1,
+   "addr": 56528
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "ROLL N",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mower_roll_a_n",
+    "mower_roll_b_n"
+   ],
+   "bank": 1,
+   "addr": 56656
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "ROLL NE",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mower_roll_a_ne",
+    "mower_roll_b_ne"
+   ],
+   "bank": 1,
+   "addr": 56784
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "MOWER",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 8,
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "mower_hold_e",
+    "mower_hold_se",
+    "mower_hold_s",
+    "mower_hold_sw",
+    "mower_hold_w",
+    "mower_hold_nw",
+    "mower_hold_n",
+    "mower_hold_ne"
+   ],
+   "bank": 1,
+   "addr": 56912
+  },
+  {
+   "game": "MOWER MAYHEM",
+   "character": "STOP ARC",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 8,
+   "source": "zx-mower-mayhem/assets/sprites/stop-arc.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "stoparc_e",
+    "stoparc_se",
+    "stoparc_s",
+    "stoparc_sw",
+    "stoparc_w",
+    "stoparc_nw",
+    "stoparc_n",
+    "stoparc_ne"
+   ],
+   "bank": 1,
+   "addr": 57168
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "BABY",
+   "figure": "FEED",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/baby/final/baby.spr",
+   "masks": false,
+   "ink": 6,
+   "sprites": [
+    "baby_eat",
+    "baby_half_fed"
+   ],
+   "bank": 1,
+   "addr": 57424
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "BABY",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/baby/final/baby.spr",
+   "masks": false,
+   "ink": 6,
+   "sprites": [
+    "baby_hungry",
+    "baby_full"
+   ],
+   "bank": 1,
+   "addr": 57488
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "DRONE",
+   "figure": "HOVER",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/camera-drone/final/camera-drone.spr",
+   "masks": false,
+   "ink": 7,
+   "sprites": [
+    "drone_fly0",
+    "drone_fly1"
+   ],
+   "bank": 1,
+   "addr": 57552
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "DRONE",
+   "figure": "POSES",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-tiger-gorilla/assets/sprites/camera-drone/final/camera-drone.spr",
+   "masks": false,
+   "ink": 7,
+   "sprites": [
+    "drone_aim"
+   ],
+   "bank": 1,
+   "addr": 57584
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "CROC",
+   "figure": "POSES",
+   "box": [
+    32,
+    16
+   ],
+   "frames": 3,
+   "source": "zx-tiger-gorilla/assets/sprites/crocodile/final/crocodile.spr",
+   "masks": false,
+   "ink": 4,
+   "sprites": [
+    "croc_eyes",
+    "croc_lunge",
+    "croc_chomp"
+   ],
+   "bank": 1,
+   "addr": 57600
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "ALERT",
+   "figure": "POSES",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-alert.spr",
+   "masks": false,
+   "ink": 7,
+   "sprites": [
+    "fx_alert"
+   ],
+   "bank": 1,
+   "addr": 57792
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "JET",
+   "figure": "DOWN",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-boost-jet.spr",
+   "masks": false,
+   "ink": 6,
+   "sprites": [
+    "fx_jet_down0",
+    "fx_jet_down1"
+   ],
+   "bank": 1,
+   "addr": 57800
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "JET",
+   "figure": "SIDE",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-boost-jet.spr",
+   "masks": false,
+   "ink": 6,
+   "sprites": [
+    "fx_jet_side0",
+    "fx_jet_side1"
+   ],
+   "bank": 1,
+   "addr": 57864
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "CLOUD",
+   "figure": "PUFF",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 3,
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-fart-cloud.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "fx_burst",
+    "fx_cloud",
+    "fx_wisps"
+   ],
+   "bank": 1,
+   "addr": 57928
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "FLASH",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 1,
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-flash.spr",
+   "masks": false,
+   "ink": 7,
+   "sprites": [
+    "fx_flash"
+   ],
+   "bank": 1,
+   "addr": 58024
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "STARS",
+   "figure": "STARS",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-stars.spr",
+   "masks": false,
+   "ink": 6,
+   "sprites": [
+    "fx_stars0",
+    "fx_stars1"
+   ],
+   "bank": 1,
+   "addr": 58056
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "GORILLA",
+   "figure": "RUN",
+   "box": [
+    32,
+    32
+   ],
+   "frames": 4,
+   "source": "zx-tiger-gorilla/assets/sprites/gorilla/final/gorilla-walk.spr",
+   "masks": false,
+   "ink": 6,
+   "sprites": [
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3"
+   ],
+   "bank": 1,
+   "addr": 58088
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "SCARLET",
+   "figure": "FLY",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/parrot/final/parrot-scarlet.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "par_scarlet_flap_up",
+    "par_scarlet_flap_down"
+   ],
+   "bank": 1,
+   "addr": 58600
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "SCARLET",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 1,
+   "source": "zx-tiger-gorilla/assets/sprites/parrot/final/parrot-scarlet.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "par_scarlet_perch"
+   ],
+   "bank": 1,
+   "addr": 58664
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "PARROT",
+   "figure": "FLY",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/parrot/final/parrot.spr",
+   "masks": false,
+   "ink": 4,
+   "sprites": [
+    "par_flap_up",
+    "par_flap_down"
+   ],
+   "bank": 1,
+   "addr": 58696
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "PARROT",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 1,
+   "source": "zx-tiger-gorilla/assets/sprites/parrot/final/parrot.spr",
+   "masks": false,
+   "ink": 4,
+   "sprites": [
+    "par_perch"
+   ],
+   "bank": 1,
+   "addr": 58760
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "SNAPPER",
+   "figure": "PATROL",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/photographer/final/photographer.spr",
+   "masks": false,
+   "ink": 7,
+   "sprites": [
+    "pho_walk0",
+    "pho_walk1"
+   ],
+   "bank": 1,
+   "addr": 58792
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "SNAPPER",
+   "figure": "FOCUSING",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/photographer/final/photographer.spr",
+   "masks": false,
+   "ink": 7,
+   "sprites": [
+    "pho_aim0",
+    "pho_aim1"
+   ],
+   "bank": 1,
+   "addr": 58888
+  },
+  {
+   "game": "TIGER GORILLA",
+   "character": "SNAPPER",
+   "figure": "POSES",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-tiger-gorilla/assets/sprites/photographer/final/photographer.spr",
+   "masks": false,
+   "ink": 7,
+   "sprites": [
+    "pho_hurry",
+    "pho_snap"
+   ],
+   "bank": 1,
+   "addr": 58984
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "BRIAN",
+   "figure": "POSES",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 3,
+   "source": "zx-gold-master/assets/sprites/brian.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "brian",
+    "brian_nod",
+    "neil_cheer"
+   ],
+   "bank": 1,
+   "addr": 59080
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "BUG",
+   "figure": "CRAWL",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/bug.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "bug0",
+    "bug1"
+   ],
+   "bank": 1,
+   "addr": 59656
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "BUG",
+   "figure": "POP",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/bug.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "stars0",
+    "stars1"
+   ],
+   "bank": 1,
+   "addr": 59720
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "BUG",
+   "figure": "POSES",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-gold-master/assets/sprites/bug.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "bug_peek"
+   ],
+   "bank": 1,
+   "addr": 59848
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "MODES",
+   "figure": "SET 1",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/icons-modes.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mode_clock",
+    "mode_tea"
+   ],
+   "bank": 1,
+   "addr": 59864
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "MODES",
+   "figure": "SET 2",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-gold-master/assets/sprites/icons-modes.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "star"
+   ],
+   "bank": 1,
+   "addr": 59992
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ICONS",
+   "figure": "SPARKLE",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/icons.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "sparkle0",
+    "sparkle1"
+   ],
+   "bank": 1,
+   "addr": 60000
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ICONS",
+   "figure": "SET 1",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 8,
+   "source": "zx-gold-master/assets/sprites/icons.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "st_design",
+    "st_assets",
+    "st_build",
+    "st_verify",
+    "st_playtest",
+    "st_signoff",
+    "stop",
+    "why_bug"
+   ],
+   "bank": 1,
+   "addr": 60016
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ICONS",
+   "figure": "SET 2",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 8,
+   "source": "zx-gold-master/assets/sprites/icons.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "why_percy",
+    "why_mug",
+    "omni_face",
+    "crumpet",
+    "retry",
+    "mole",
+    "teapot",
+    "rocket"
+   ],
+   "bank": 1,
+   "addr": 60528
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ICONS",
+   "figure": "SET 3",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 1,
+   "source": "zx-gold-master/assets/sprites/icons.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "st_release"
+   ],
+   "bank": 1,
+   "addr": 61040
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ICONS",
+   "figure": "SET 4",
+   "box": [
+    32,
+    32
+   ],
+   "frames": 4,
+   "source": "zx-gold-master/assets/sprites/icons.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "crumpet_big",
+    "mole_big",
+    "teapot_big",
+    "rocket_big"
+   ],
+   "bank": 1,
+   "addr": 61104
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ICONS",
+   "figure": "SET 5",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 8,
+   "source": "zx-gold-master/assets/sprites/icons.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "shake",
+    "smile",
+    "zz",
+    "rain",
+    "glow_dn",
+    "glow_up",
+    "glow_rt",
+    "glow_lt"
+   ],
+   "bank": 1,
+   "addr": 62128
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ITEMS",
+   "figure": "SET 1",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 8,
+   "source": "zx-gold-master/assets/sprites/items.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "it_doc",
+    "it_sheet",
+    "it_mug",
+    "it_build",
+    "it_verified",
+    "it_report",
+    "it_signed",
+    "it_gold"
+   ],
+   "bank": 1,
+   "addr": 62192
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ITEMS",
+   "figure": "SET 2",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 4,
+   "source": "zx-gold-master/assets/sprites/items.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "it_tape",
+    "it_title",
+    "it_brief",
+    "it_blanks"
+   ],
+   "bank": 1,
+   "addr": 62704
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ITEMS",
+   "figure": "SET 3",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 8,
+   "source": "zx-gold-master/assets/sprites/items.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mi_doc",
+    "mi_sheet",
+    "mi_mug",
+    "mi_build",
+    "mi_verified",
+    "mi_report",
+    "mi_signed",
+    "mi_gold"
+   ],
+   "bank": 1,
+   "addr": 62960
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ITEMS",
+   "figure": "SET 4",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 4,
+   "source": "zx-gold-master/assets/sprites/items.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mi_tape",
+    "mi_title",
+    "mi_brief",
+    "mi_blanks"
+   ],
+   "bank": 1,
+   "addr": 63088
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "MO",
+   "figure": "WALK",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/mo.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mo_down0",
+    "mo_down1"
+   ],
+   "bank": 1,
+   "addr": 63152
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "MO",
+   "figure": "WALK UP",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/mo.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mo_up0",
+    "mo_up1"
+   ],
+   "bank": 1,
+   "addr": 63344
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "MO",
+   "figure": "SIDEWAYS",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/mo.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "mo_side0",
+    "mo_side1"
+   ],
+   "bank": 1,
+   "addr": 63536
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ROBOT",
+   "figure": "IDLE",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/omnibot.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "omnibot0",
+    "omnibot1"
+   ],
+   "bank": 1,
+   "addr": 63728
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ROBOT",
+   "figure": "SET 1",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 1,
+   "source": "zx-gold-master/assets/sprites/omnibot.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "omnibot_wave"
+   ],
+   "bank": 1,
+   "addr": 64112
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ROBOT",
+   "figure": "SET 2",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-gold-master/assets/sprites/omnibot.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "omnibot_tap"
+   ],
+   "bank": 1,
+   "addr": 64304
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "ROBOT",
+   "figure": "SET 3",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/omnibot.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "trolley",
+    "parcel"
+   ],
+   "bank": 1,
+   "addr": 64336
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "PERCY",
+   "figure": "WALK",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-gold-master/assets/sprites/percy.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "percy_walk0",
+    "percy_walk1"
+   ],
+   "bank": 1,
+   "addr": 64464
+  },
+  {
+   "game": "GOLD MASTER",
+   "character": "PERCY",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 3,
+   "source": "zx-gold-master/assets/sprites/percy.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "percy_sit",
+    "percy_stretch",
+    "percy_sleep"
+   ],
+   "bank": 1,
+   "addr": 64592
+  },
+  {
+   "game": "ANTIGRAVITY",
+   "character": "LASER",
+   "figure": "POSES",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-antigravity/assets/sprites/coolant-laser.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "beam"
+   ],
+   "bank": 1,
+   "addr": 64784
+  },
+  {
+   "game": "ANTIGRAVITY",
+   "character": "ROBIN",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 5,
+   "source": "zx-antigravity/assets/sprites/robin-suit.spr",
+   "masks": true,
+   "ink": 5,
+   "sprites": [
+    "idle",
+    "thrust_down",
+    "thrust_left",
+    "thrust_right",
+    "brake"
+   ],
+   "bank": 1,
+   "addr": 64816
+  },
+  {
+   "game": "ANTIGRAVITY",
+   "character": "SENTRY",
+   "figure": "POSES",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-antigravity/assets/sprites/sentry-drone.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "patrol_left",
+    "patrol_right"
+   ],
+   "bank": 1,
+   "addr": 65136
+  },
+  {
+   "game": "ANTIGRAVITY",
+   "character": "STATION",
+   "figure": "POSES",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 3,
+   "source": "zx-antigravity/assets/sprites/station-objects.spr",
+   "masks": true,
+   "ink": 6,
+   "sprites": [
+    "core",
+    "airlock_locked",
+    "airlock_unlocked"
+   ],
+   "bank": 1,
+   "addr": 65200
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "DAN",
+   "figure": "DIZZY",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-all-disco-all-dan/assets/sprites/dan.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "dan_dizzy_a",
+    "dan_dizzy_b"
+   ],
+   "bank": 4,
+   "addr": 49152
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "DAN",
+   "figure": "POSES",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 7,
+   "source": "zx-all-disco-all-dan/assets/sprites/dan.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "dan_stand",
+    "dan_crouch",
+    "dan_hop",
+    "dan_pose",
+    "dan_point",
+    "dan_tap",
+    "dan_triumph"
+   ],
+   "bank": 4,
+   "addr": 49344
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "FRED",
+   "figure": "DANCE",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-all-disco-all-dan/assets/sprites/fred.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "fred_dance_a",
+    "fred_dance_b"
+   ],
+   "bank": 4,
+   "addr": 50016
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "FRED",
+   "figure": "POSES",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 4,
+   "source": "zx-all-disco-all-dan/assets/sprites/fred.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "fred_stand",
+    "fred_step",
+    "fred_look_right",
+    "fred_look_left"
+   ],
+   "bank": 4,
+   "addr": 50208
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "EFFECTS",
+   "figure": "STARS",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-all-disco-all-dan/assets/sprites/fx.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "fx_stars_a",
+    "fx_stars_b"
+   ],
+   "bank": 1,
+   "addr": 65392
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "EFFECTS",
+   "figure": "POSES",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 3,
+   "source": "zx-all-disco-all-dan/assets/sprites/fx.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "fx_starburst",
+    "fx_dust",
+    "fx_sparkle"
+   ],
+   "bank": 1,
+   "addr": 65424
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "HELPERS",
+   "figure": "JOO",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-all-disco-all-dan/assets/sprites/helpers.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "joo_dance_a",
+    "joo_dance_b"
+   ],
+   "bank": 4,
+   "addr": 50592
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "HELPERS",
+   "figure": "DEZ",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-all-disco-all-dan/assets/sprites/helpers.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "dez_dance_a",
+    "dez_dance_b"
+   ],
+   "bank": 4,
+   "addr": 50784
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "HELPERS",
+   "figure": "POSES",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-all-disco-all-dan/assets/sprites/helpers.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "joo_cheer",
+    "dez_cheer"
+   ],
+   "bank": 4,
+   "addr": 50976
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "RON",
+   "figure": "DANCE",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 2,
+   "source": "zx-all-disco-all-dan/assets/sprites/ron.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "ron_dance_a",
+    "ron_dance_b"
+   ],
+   "bank": 4,
+   "addr": 51168
+  },
+  {
+   "game": "ALL DISCO",
+   "character": "RON",
+   "figure": "POSES",
+   "box": [
+    16,
+    24
+   ],
+   "frames": 4,
+   "source": "zx-all-disco-all-dan/assets/sprites/ron.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "ron_stand",
+    "ron_step",
+    "ron_look_left",
+    "ron_look_right"
+   ],
+   "bank": 4,
+   "addr": 51360
+  },
+  {
+   "game": "WOLF",
+   "character": "GYM",
+   "figure": "DEADLIFT",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 3,
+   "source": "zx-wolf/assets/sprites/body-standard-m2.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "deadlift0",
+    "deadlift1",
+    "deadlift2"
+   ],
+   "bank": 4,
+   "addr": 51744
+  },
+  {
+   "game": "WOLF",
+   "character": "GYM",
+   "figure": "PULLDOWN",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 3,
+   "source": "zx-wolf/assets/sprites/body-standard-m2.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "pulldown0",
+    "pulldown1",
+    "pulldown2"
+   ],
+   "bank": 4,
+   "addr": 52320
+  },
+  {
+   "game": "WOLF",
+   "character": "GYM",
+   "figure": "CHINUP",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 3,
+   "source": "zx-wolf/assets/sprites/body-standard-m2.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "chinup0",
+    "chinup1",
+    "chinup2"
+   ],
+   "bank": 4,
+   "addr": 52896
+  },
+  {
+   "game": "WOLF",
+   "character": "GYM",
+   "figure": "PRESS",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 3,
+   "source": "zx-wolf/assets/sprites/body-standard-m2.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "chestpress0",
+    "chestpress1",
+    "chestpress2"
+   ],
+   "bank": 4,
+   "addr": 53472
+  },
+  {
+   "game": "WOLF",
+   "character": "GYM",
+   "figure": "POSES",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 1,
+   "source": "zx-wolf/assets/sprites/body-standard-m2.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "hang"
+   ],
+   "bank": 4,
+   "addr": 54048
+  },
+  {
+   "game": "WOLF",
+   "character": "BODY",
+   "figure": "WALK",
+   "box": [
+    32,
+    32
+   ],
+   "frames": 4,
+   "source": "zx-wolf/assets/sprites/body-standard.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "walk0",
+    "walkh1",
+    "walk2",
+    "walkh3"
+   ],
+   "bank": 4,
+   "addr": 54240
+  },
+  {
+   "game": "WOLF",
+   "character": "BODY",
+   "figure": "SQUAT",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 3,
+   "source": "zx-wolf/assets/sprites/body-standard.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "squat0",
+    "squat1",
+    "squat2"
+   ],
+   "bank": 4,
+   "addr": 55264
+  },
+  {
+   "game": "WOLF",
+   "character": "BODY",
+   "figure": "SLED",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 2,
+   "source": "zx-wolf/assets/sprites/body-standard.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "sled0",
+    "sled1"
+   ],
+   "bank": 4,
+   "addr": 55840
+  },
+  {
+   "game": "WOLF",
+   "character": "BODY",
+   "figure": "BELL",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 2,
+   "source": "zx-wolf/assets/sprites/body-standard.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "bell0",
+    "bell1"
+   ],
+   "bank": 4,
+   "addr": 56224
+  },
+  {
+   "game": "WOLF",
+   "character": "BODY",
+   "figure": "POSES",
+   "box": [
+    24,
+    32
+   ],
+   "frames": 5,
+   "source": "zx-wolf/assets/sprites/body-standard.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "stand",
+    "rest",
+    "sit",
+    "drink",
+    "cheer"
+   ],
+   "bank": 4,
+   "addr": 56608
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "POSES",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-wolf/assets/sprites/props-m3.spr",
+   "masks": false,
+   "ink": 2,
+   "sprites": [
+    "red_dot_pop",
+    "warning_mark"
+   ],
+   "bank": 1,
+   "addr": 65520
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "PLATE",
+   "box": [
+    16,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-wolf/assets/sprites/props-m4.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "plate_bounce0",
+    "plate_bounce1"
+   ],
+   "bank": 4,
+   "addr": 57568
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "POSES 2",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-wolf/assets/sprites/props-m4.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "phone"
+   ],
+   "bank": 4,
+   "addr": 57632
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "POSES 3",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-wolf/assets/sprites/props-m5.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "strap"
+   ],
+   "bank": 4,
+   "addr": 57648
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "POSES 4",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 5,
+   "source": "zx-wolf/assets/sprites/props-m6.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "belly0",
+    "belly1",
+    "belly2",
+    "belly3",
+    "belly4"
+   ],
+   "bank": 4,
+   "addr": 57664
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "POSES 5",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-wolf/assets/sprites/props-m7.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "santa_hat"
+   ],
+   "bank": 4,
+   "addr": 57744
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "SLED",
+   "box": [
+    24,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-wolf/assets/sprites/props.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "sled0",
+    "sled1"
+   ],
+   "bank": 4,
+   "addr": 57760
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "BELL",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-wolf/assets/sprites/props.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "bell0",
+    "bell1"
+   ],
+   "bank": 4,
+   "addr": 57952
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "STAR",
+   "box": [
+    16,
+    16
+   ],
+   "frames": 2,
+   "source": "zx-wolf/assets/sprites/props.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "star0",
+    "star1"
+   ],
+   "bank": 4,
+   "addr": 58080
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "WATER",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 2,
+   "source": "zx-wolf/assets/sprites/props.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "water0",
+    "water1"
+   ],
+   "bank": 4,
+   "addr": 58208
+  },
+  {
+   "game": "WOLF",
+   "character": "PROPS",
+   "figure": "SET 1",
+   "box": [
+    8,
+    8
+   ],
+   "frames": 1,
+   "source": "zx-wolf/assets/sprites/props.spr",
+   "masks": true,
+   "ink": 2,
+   "sprites": [
+    "sweat"
+   ],
+   "bank": 4,
+   "addr": 58240
+  }
+ ],
+ "left_out": [
+  {
+   "source": "zx-mower-mayhem/assets/sprites/refusal-stub.spr",
+   "why": "a test stub, not a figure"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/body-standard-m4.spr",
+   "why": "habits of named regulars, some after real people (WOLF T-009)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/coach-benny.spr",
+   "why": "the coaches carry real people's first names (WOLF T-009)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/coach-stevo.spr",
+   "why": "the coaches carry real people's first names (WOLF T-009)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/coach-tim.spr",
+   "why": "the coaches carry real people's first names (WOLF T-009)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/heads-m4.spr",
+   "why": "drawn from real people (spec notes D31)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/heads.spr",
+   "why": "drawn from real people (spec notes D31)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/props.spr",
+   "figure": "SET 2",
+   "why": "larger than 32 x 32 (40 x 12)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/scene-finisher.spr",
+   "why": "a named regular (WOLF T-009)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/scene-warmup-m3.spr",
+   "why": "the coaches leading (real first names, WOLF T-009)"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/scene-warmup.spr",
+   "why": "the coaches leading (real first names, WOLF T-009)"
+  }
+ ],
+ "sources": [
+  {
+   "source": "zx-mower-mayhem/assets/sprites/beam.spr",
+   "sha256": "b42271caddd423ae67406a475cb25c3c35e196c57d0edf43e1dad303c3731b60"
+  },
+  {
+   "source": "zx-mower-mayhem/assets/sprites/bird.spr",
+   "sha256": "c19ad940d56ed31d3e3227da3390d5f19e9bdc6241754a90e033260e04f7f960"
+  },
+  {
+   "source": "zx-mower-mayhem/assets/sprites/burst.spr",
+   "sha256": "0e6aa63358fb8d1f07746088230a37e0ce3bd114bd0eb2f39a99cff4d280327b"
+  },
+  {
+   "source": "zx-mower-mayhem/assets/sprites/cat-peek.spr",
+   "sha256": "d298c94a8dc0c328ee9c65be1aa577c5073b8439dceb70f23a6d2eee25afab22"
+  },
+  {
+   "source": "zx-mower-mayhem/assets/sprites/cat.spr",
+   "sha256": "2c53ea374612b57fffb96111944ab7c13e31c55c49d672a5d617cf370c37a14d"
+  },
+  {
+   "source": "zx-mower-mayhem/assets/sprites/hedgehog.spr",
+   "sha256": "6f5fd5653bf89d56e0c8f24920fd2ce9664c9bd6df4b3320e065818284f5d2e9"
+  },
+  {
+   "source": "zx-mower-mayhem/assets/sprites/mower.spr",
+   "sha256": "465cddb83d906caeeb88a02d972287952fb14af93755fd13f5bda253ab2a018e"
+  },
+  {
+   "source": "zx-mower-mayhem/assets/sprites/stop-arc.spr",
+   "sha256": "633f9119bc34662c1d16747d5b8ee33fac6ce89c66ae3300f1d2f61fda63e784"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/baby/final/baby.spr",
+   "sha256": "083b46da4be51eb94d513b972a027b036cb8639e7967710ca9d1f2c2af26d44c"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/camera-drone/final/camera-drone.spr",
+   "sha256": "b63dcbf59379df3e9771371a0378c06b66aac9e33cebdb3a31023e25e38a098c"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/crocodile/final/crocodile.spr",
+   "sha256": "d2adfaa6ede53111154a7214bea48a34bf4449d6367f036facdd84993fa89a32"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-alert.spr",
+   "sha256": "b605a23a41c7c651c0865caa14ef397c79c39470ea9d53bcc9b21180595d11a2"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-boost-jet.spr",
+   "sha256": "17f2047984658ed492fe2cabf3d46e1bf7170ee77c56d6c811d0d003b06a1924"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-fart-cloud.spr",
+   "sha256": "f74aa07166317c688c4f0e5947211762ce304af7a9b817e74f746aa495bc7ac8"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-flash.spr",
+   "sha256": "af52ecfe0f2ba6a01d22754c029a21c2c61ec729ee0586d1a369076f070f04d7"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/fx/final/fx-stars.spr",
+   "sha256": "6c26871867f4a2a84fcdd1034ceaf476d9e4e8b5557895c7a23db5f7af2e55ab"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/gorilla/final/gorilla-walk.spr",
+   "sha256": "0fa0accbd00de1cd1ec2fe7ff39c45e034d988e9f9385355599894b31dde71b6"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/parrot/final/parrot-scarlet.spr",
+   "sha256": "5d21fbc86e3b64c926af394d923af8778d9d36af902a7af9afe60668c801fdaa"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/parrot/final/parrot.spr",
+   "sha256": "59dc2c903b32bca23c7f7bd2081cc92ee7d782286718fbbcb7bab01d6c923761"
+  },
+  {
+   "source": "zx-tiger-gorilla/assets/sprites/photographer/final/photographer.spr",
+   "sha256": "26bc937c0f6f8e5c5b4ed149c5aabc516e88ed602941df3c940a48b9985ea251"
+  },
+  {
+   "source": "zx-gold-master/assets/sprites/brian.spr",
+   "sha256": "c0fec14f5bb08a622f5f0cf2c86df82130f34d467dae9703b6f703165345e26d"
+  },
+  {
+   "source": "zx-gold-master/assets/sprites/bug.spr",
+   "sha256": "3ab9b06c5690a41645530fec87e4c291fd30d5d0e458fc1a9cd07ec8112e7450"
+  },
+  {
+   "source": "zx-gold-master/assets/sprites/icons-modes.spr",
+   "sha256": "f91f425b78d6b52908b7aa2d76bff9c8a1fc39b0c1c8bc845dde8afd75ee467f"
+  },
+  {
+   "source": "zx-gold-master/assets/sprites/icons.spr",
+   "sha256": "bcaaf0031632a1587ee48c72035e7971286abe61ccaaa66971871e2a9e4972a0"
+  },
+  {
+   "source": "zx-gold-master/assets/sprites/items.spr",
+   "sha256": "e3a2e7ba2fd497777c7d26f97a2f8b187033f9d504de6deb51dfd45e352275d6"
+  },
+  {
+   "source": "zx-gold-master/assets/sprites/mo.spr",
+   "sha256": "3903605066b6fa728a63fbb9657d26e3cb9708fa8fbcf733195b99d2b35b9367"
+  },
+  {
+   "source": "zx-gold-master/assets/sprites/omnibot.spr",
+   "sha256": "8b5867fc5b537c6794f90b7315bd2c6e789d88c5751144f7a3afb10f1b3fd9b5"
+  },
+  {
+   "source": "zx-gold-master/assets/sprites/percy.spr",
+   "sha256": "10e29676a4d0d75300564b1ba0de6d6ef30d8e276eea1d3b3111b7ae3462f3eb"
+  },
+  {
+   "source": "zx-antigravity/assets/sprites/coolant-laser.spr",
+   "sha256": "834a28ca217037b6ed9749807d567f363f31cd60ef90fe6da67239bebe327d5e"
+  },
+  {
+   "source": "zx-antigravity/assets/sprites/robin-suit.spr",
+   "sha256": "8a0f1742a9f4a8cc25bce2251063fe260e7e5e1a574030733285f1abba1b5990"
+  },
+  {
+   "source": "zx-antigravity/assets/sprites/sentry-drone.spr",
+   "sha256": "45069be7bb6f55b0250dc1b22220ebc43aa699301cbce2184e84b309edaa4001"
+  },
+  {
+   "source": "zx-antigravity/assets/sprites/station-objects.spr",
+   "sha256": "89416ae2f604dd081243c32b5bcd00b8756ae277d4a2b64c6ee453ce82af9de7"
+  },
+  {
+   "source": "zx-all-disco-all-dan/assets/sprites/dan.spr",
+   "sha256": "7901c914719c9cdb4c4e07497a3253d4501e1f8c273f1978f34fd811202dc04d"
+  },
+  {
+   "source": "zx-all-disco-all-dan/assets/sprites/fred.spr",
+   "sha256": "909fb16ee4ca714008cb7235961ad3fd9b621ffb1cfd2e6badc65cd220df9bab"
+  },
+  {
+   "source": "zx-all-disco-all-dan/assets/sprites/fx.spr",
+   "sha256": "7ff6a8a8cc646824f95f816d0ca569766da3f2fe95115f4f7d2852ea80d5a055"
+  },
+  {
+   "source": "zx-all-disco-all-dan/assets/sprites/helpers.spr",
+   "sha256": "2188c32906f0663148a2f9bd522f3657e28aa095437057021e18697aa22743c4"
+  },
+  {
+   "source": "zx-all-disco-all-dan/assets/sprites/ron.spr",
+   "sha256": "48e4cb240e7bf59bcc020ce145f2c6d365365ad4bcfcbb8159ae705de4017548"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/body-standard-m2.spr",
+   "sha256": "5aad5dfc999d1dcbf4f82961d095b56bc5943df492e17fd6f176903cea1a590d"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/body-standard.spr",
+   "sha256": "5fe22b66b5fcb751a9619f1cdc4cf2899a5523d5f619282ab04810812c7f7ad3"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/props-m3.spr",
+   "sha256": "b125f78a45c5b5cc7d56055ffb410de4aa2ae50b5797e4dc5ea712cebdbe40c8"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/props-m4.spr",
+   "sha256": "bbe4361251db226ccb32278eb453ccaf78b4c73a113340697fbb97249236716d"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/props-m5.spr",
+   "sha256": "676cba48af5bf7b56308da6db70a5d2d2e9eea5499b7a659c1ae97ee8ba8dfcd"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/props-m6.spr",
+   "sha256": "caae5fad66271979a238807b087c14bc5bc06be4d019a5a0eae9e5fb4310940e"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/props-m7.spr",
+   "sha256": "2efe728b7091592ae2a583c1a7b7fd36e21b71f43cb30bccd7fe0f177ea64c63"
+  },
+  {
+   "source": "zx-wolf/assets/sprites/props.spr",
+   "sha256": "96e1013480d5304f6bccea7f2be2d370f79c4629a517776c9e9188da991c0840"
+  }
+ ],
+ "bank_bytes": {
+  "1": 16384,
+  "4": 9104
+ }
+}

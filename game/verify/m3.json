@@ -1,0 +1,456 @@
+{
+  "pass": true,
+  "result": "pass",
+  "checks": {
+    "build": {
+      "pass": true,
+      "detail": "sprite-studio-m3.tap sha256 3b734751d9891c4a..."
+    },
+    "memmap": {
+      "pass": true,
+      "detail": "no problems"
+    },
+    "unreferenced_data": {
+      "pass": true,
+      "detail": "no unreferenced generated labels"
+    },
+    "cold_load": {
+      "pass": true,
+      "detail": "ROM load reached start $8000"
+    },
+    "reaches_play": {
+      "pass": true,
+      "detail": "play at frame 100 after 1 start press(es): 100-104:2"
+    },
+    "update_rate": {
+      "pass": true,
+      "detail": "1.021 frames/update measured, build.yaml update_frames 1 (2.1% off, limit 5%); worst 100-frame stretch over 23 run(s): 1.010 frames/update in recipe-m3-box frames 341-441 (+1.0%)",
+      "worst": {
+        "run": "recipe-m3-box",
+        "start": 341,
+        "frames": 100,
+        "fpu": 1.01
+      }
+    },
+    "update_cost": {
+      "pass": true,
+      "detail": "9633 play updates over 26 run(s): median 5445, p90 31251, max 272452 busy T (max in recipe-m1-mouse-controls frame 114); p90 is 44% of the update period (1 x 70908 T); update_budget_t 45000: p90 within budget"
+    },
+    "no_crash": {
+      "pass": true,
+      "detail": "28 runs, no crash"
+    },
+    "no_soft_lock": {
+      "pass": true,
+      "detail": "28 runs, no soft lock"
+    },
+    "input_latency": {
+      "pass": true,
+      "detail": "30/30 one-frame taps raised steer_n within 2 frames (tap frame + update_frames 1); slowest response at tap+0; idle drift 0 over frames 119-334, idle moved in 0/30 tap windows (key p, watch steer_n, direction up)"
+    },
+    "flicker": {
+      "pass": true,
+      "detail": "0 transient bitmap bytes in 516 play frames; 36 late bytes (shown one frame late) in 2 frames; 20 redraw frames exempt (HARNESS_redraw)"
+    },
+    "house_loader": {
+      "pass": true,
+      "detail": "loader prints DALEX SOFTWARE / PRESENTS / SPRITE STUDIO / the bar (lines 12-18); 4 header(s) named 'S.STUDIO'"
+    },
+    "house_logo": {
+      "pass": true,
+      "detail": "loading screen holds lockup-a byte for byte (rows 20-23, cols 22-31)"
+    },
+    "house_footer": {
+      "pass": true,
+      "detail": "title row 23 (bank 5, frame 20) equals footer-row.bin byte for byte"
+    },
+    "ident_skip": {
+      "pass": null,
+      "detail": "skipped: no boot ident (DEFINE ZXG_IDENT before INCLUDE \"house/house.asm\")"
+    },
+    "recipe:m1-frames": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol nframes sequence: expected [2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1] in order, values [1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1]; symbol frames_data+66 seen: expected [84], saw [0, 84]; symbol last_event seen: expected [18], saw [4, 5, 6, 15, 18, 19, 36]; symbol last_event at_end: expected 19, got 19; symbol cur_frame at_end: expected 0, got 0; reached_play=True, end state 1, 960 frames"
+    },
+    "recipe:m1-mouse-controls": {
+      "pass": true,
+      "detail": "FIXTURE (9 poke(s): ms_lastx=135 at frame 130, ms_lasty=43 at frame 130, ms_lastx=91 at frame 170, ms_lasty=31 at frame 170, ms_lastx=91 at frame 175, ms_lasty=187 at frame 210, ms_lasty=187 at frame 215, ms_lastx=199 at frame 250, ms_lasty=55 at frame 250); state_at_end: expected 1, got 1; symbol nframes at_end: expected 3, got 3; symbol last_event seen: expected [5, 14, 7], saw [1, 5, 7, 14, 15, 36]; symbol cur_frame at_end: expected 0, got 0; symbol frames_data at_end: expected 128, got 128; symbol frames_data+2 at_end: expected 64, got 64; symbol frames_data+4 at_end: expected 32, got 32; symbol frames_data+6 at_end: expected 16, got 16; symbol frames_data+8 at_end: expected 8, got 8; symbol frames_data+10 at_end: expected 4, got 4; symbol frames_data+12 at_end: expected 2, got 2; symbol frames_data+14 at_end: expected 1, got 1; symbol inked at_end: expected 8, got 8; reached_play=True, end state 1, 340 frames",
+      "fixture": true
+    },
+    "recipe:m1-mouse": {
+      "pass": true,
+      "detail": "FIXTURE (2 poke(s): ms_lastx=247 at frame 130, ms_lasty=247 at frame 160); state_at_end: expected 1, got 1; symbol cur_x seen: expected [80], saw [72, 80, 84]; symbol cur_y seen: expected [72], saw [72, 76, 80]; symbol input_dev at_end: expected 2, got 2; symbol gc_col at_end: expected 9, got 9; symbol gc_row at_end: expected 7, got 7; reached_play=True, end state 1, 260 frames",
+      "fixture": true
+    },
+    "recipe:m1-music": {
+      "pass": true,
+      "detail": "state_at_end: expected 0, got 0; symbol music at_end: expected 1, got 1; reached_play=True, end state 0, 360 frames"
+    },
+    "recipe:m1-nomusic": {
+      "pass": true,
+      "detail": "state_at_end: expected 0, got 0; symbol music at_end: expected 0, got 0; reached_play=True, end state 0, 360 frames"
+    },
+    "recipe:m1-paint-keys": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol frames_data+1 seen: expected [252], saw [0, 128, 192, 224, 240, 248, 252]; symbol frames_data+1 at_end: expected 240, got 240; symbol inked seen: expected [92], saw [0, 86, 87, 88, 89, 90, 91, 92]; symbol inked at_end: expected 90, got 90; symbol gc_row at_end: expected 0, got 0; symbol gc_col at_end: expected 12, got 12; reached_play=True, end state 1, 470 frames"
+    },
+    "recipe:m1-play": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol play_frame sequence: expected [0, 1, 0, 1, 0] in order, values [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, ...]; symbol play_lvl seen: expected [0], saw [0, 1, 2, 3, 4, 5]; symbol last_event seen: expected [21], saw [10, 12, 13, 15, 21, 22, 36]; symbol play_lvl at_end: expected 5, got 5; symbol last_event at_end: expected 22, got 22; symbol play_on at_end: expected 1, got 1; reached_play=True, end state 1, 440 frames"
+    },
+    "recipe:m1-repeat": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol gc_col seen: expected [0, 10], saw [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; symbol gc_col [frames 300-399] max: expected every value <= 10, highest 10; symbol gc_col at_end: expected 0, got 0; symbol gc_row at_end: expected 0, got 0; reached_play=True, end state 1, 520 frames"
+    },
+    "recipe:m1-start": {
+      "pass": true,
+      "detail": "state_sequence: expected [0, 1] in order, trace [0, 1]; state_at_end: expected 1, got 1; symbol input_dev seen: expected [0], saw [0, 2]; symbol state [frames 10-310] max: expected every value <= 0, highest 0; symbol input_dev at_end: expected 2, got 2; symbol nframes at_end: expected 2, got 2; symbol gc_col at_end: expected 8, got 8; symbol gc_row at_end: expected 8, got 8; symbol cur_x at_end: expected 76, got 76; symbol cur_y at_end: expected 84, got 84; symbol music at_end: expected 1, got 1; reached_play=True, end state 1, 420 frames"
+    },
+    "recipe:m1-title": {
+      "pass": true,
+      "detail": "state_sequence: expected [0, 1, 0, 1] in order, trace [0, 1, 0, 1]; state_at_end: expected 1, got 1; symbol cur_frame at_end: expected 1, got 1; symbol play_on at_end: expected 1, got 1; symbol inked at_end: expected 90, got 90; reached_play=True, end state 1, 440 frames"
+    },
+    "recipe:m1-undo": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol frames_data+1 sequence: expected [0, 128, 0, 128] in order, values [0, 128, 0, 128]; symbol last_event at_end: expected 9, got 9; symbol undo_ok at_end: expected 1, got 1; reached_play=True, end state 1, 450 frames"
+    },
+    "recipe:m1-ux-keep": {
+      "pass": true,
+      "detail": "state_sequence: expected [0, 1, 0, 1] in order, trace [0, 1, 0, 1]; state_at_end: expected 1, got 1; symbol gc_col at_end: expected 10, got 10; symbol gc_row at_end: expected 9, got 9; reached_play=True, end state 1, 300 frames"
+    },
+    "recipe:m1-ux-undo": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol frames_data+1 sequence: expected [0, 128, 0] in order, values [0, 128, 0]; symbol last_event at_end: expected 8, got 8; symbol gc_col at_end: expected 9, got 9; reached_play=True, end state 1, 400 frames"
+    },
+    "recipe:m2-checks": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol stray_n seen: expected [1], saw [0, 1]; symbol last_event seen: expected [30], saw [1, 5, 7, 15, 30, 36]; symbol check_on seen: expected [1], saw [0, 1]; symbol check_bits+17 seen: expected [128], saw [0, 128]; symbol grid_have+136 seen: expected [13], saw [0, 1, 8, 9, 13, 32]; symbol alike seen: expected [1], saw [0, 1]; symbol alike at_end: expected 0, got 0; symbol nframes at_end: expected 3, got 3; symbol check_on at_end: expected 0, got 0; symbol chk_need seen: expected [1], saw [0, 1]; reached_play=True, end state 1, 380 frames"
+    },
+    "recipe:m2-codes": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol text_want+139 at_end: expected 50, got 50; symbol text_want+140 at_end: expected 56, got 56; symbol text_want+142 seen: expected [48], saw [0, 48, 49]; symbol text_want+142 at_end: expected 49, got 49; symbol text_have+142 at_end: expected 49, got 49; symbol frames_data+3 at_end: expected 1, got 1; reached_play=True, end state 1, 380 frames"
+    },
+    "recipe:m2-drawer": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol drawer sequence: expected [0, 1, 2, 0] in order, values [0, 1, 2, 0]; symbol onion_on at_end: expected 1, got 1; reached_play=True, end state 1, 330 frames"
+    },
+    "recipe:m2-mirror-nudge": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol frames_data sequence: expected [0, 128, 0, 128, 0, 128, 64] in order, values [0, 128, 0, 128, 0, 128, 64]; symbol frames_data+1 seen: expected [1], saw [0, 1]; symbol frames_data+30 seen: expected [128], saw [0, 128]; symbol frames_data at_end: expected 64, got 64; symbol last_event at_end: expected 26, got 26; reached_play=True, end state 1, 420 frames"
+    },
+    "recipe:m2-onion": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol onion_on at_end: expected 1, got 1; symbol grid_have+18 seen: expected [2], saw [0, 1, 2, 9, 10, 73]; symbol grid_have+18 at_end: expected 9, got 9; symbol cur_frame at_end: expected 1, got 1; reached_play=True, end state 1, 420 frames"
+    },
+    "recipe:m2-showcase": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol nframes at_end: expected 3, got 3; symbol play_on at_end: expected 1, got 1; reached_play=True, end state 1, 2400 frames"
+    },
+    "recipe:m3-all": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol every_on seen: expected [1], saw [0, 1]; symbol every_on at_end: expected 0, got 0; symbol frames_data+3 seen: expected [20], saw [0, 10, 20]; symbol frames_data+35 seen: expected [42], saw [0, 42]; symbol frames_data+35 at_end: expected 42, got 42; symbol last_event seen: expected [37, 39, 38], saw [15, 26, 29, 32, 36, 37, 38, 39]; symbol last_event at_end: expected 26, got 26; symbol drawer at_end: expected 2, got 2; reached_play=True, end state 1, 300 frames"
+    },
+    "recipe:m3-big": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol nframes sequence: expected [1, 3, 1, 3] in order, values [1, 3, 1, 3]; symbol box_w seen: expected [24], saw [16, 24]; symbol box_h seen: expected [32], saw [16, 32]; symbol fig_game seen: expected [2], saw [2, 255]; symbol gc_col seen: expected [16], saw [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]; symbol gc_row seen: expected [16], saw [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]; symbol last_event seen: expected [36, 8, 1, 25, 26, 10], saw [1, 8, 10, 15, 25, 26, 36]; symbol play_on at_end: expected 1, got 1; reached_play=True, end state 1, 760 frames"
+    },
+    "recipe:m3-box": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol box_w sequence: expected [16, 24, 32] in order, values [16, 24, 32]; symbol box_w at_end: expected 32, got 32; symbol box_h seen: expected [32, 24], saw [16, 24, 32]; symbol box_h at_end: expected 32, got 32; symbol last_event seen: expected [33, 34], saw [1, 8, 9, 15, 27, 33, 34, 36]; symbol frames_data+4 seen: expected [40], saw [0, 40, 84]; symbol sq_sh at_end: expected 1, got 1; symbol nframes at_end: expected 2, got 2; reached_play=True, end state 1, 660 frames"
+    },
+    "recipe:m3-library": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol phase sequence: expected [1, 2, 1] in order, values [1, 2, 1]; symbol lib_open seen: expected [1], saw [0, 1]; symbol box_w seen: expected [32], saw [16, 32]; symbol box_h seen: expected [32], saw [16, 32]; symbol nframes seen: expected [4], saw [1, 4]; symbol fig_name seen: expected [71], saw [70, 71]; symbol last_event seen: expected [36], saw [1, 8, 15, 36]; symbol box_w at_end: expected 32, got 32; symbol lib_open at_end: expected 0, got 0; symbol last_event seen: expected [1, 8], saw [1, 8, 15, 36]; symbol undo_redo at_end: expected 1, got 1; reached_play=True, end state 1, 552 frames"
+    },
+    "recipe:m3-small": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol box_w sequence: expected [16, 8] in order, values [16, 8]; symbol box_h sequence: expected [16, 8] in order, values [16, 8]; symbol last_event seen: expected [33, 35], saw [2, 8, 15, 29, 32, 33, 35, 36]; symbol gc_col at_end: expected 7, got 7; symbol sq_sh at_end: expected 0, got 0; symbol drawer at_end: expected 2, got 2; reached_play=True, end state 1, 460 frames"
+    },
+    "music_toggle": {
+      "pass": true,
+      "detail": "HARNESS_music 1 -> 0 -> 1 with m at frames 100 and 180 on the title; AY music writes 165 while on, 0 while off (frames 115-164); effects writes 0 (may continue); attributed by source (music: mus_tick; effects: sfx_tick)"
+    },
+    "sfx_toggle": {
+      "pass": null,
+      "detail": "skipped (report only): no HARNESS_sfx symbol (optional effects on/off byte: 1 on, 0 off; key keys.sfx)"
+    },
+    "audio": {
+      "pass": null,
+      "detail": "skipped: no build.yaml music: songs declared, so no music evidence is bound to this tap (declare each song with its zx-assets ayframes reference; see zx-game-build)"
+    },
+    "contact": {
+      "pass": null,
+      "detail": "skipped: no build.yaml contact block (a no-harm game declares its no-contact pairs there; zx-game-verify)"
+    },
+    "music_parity": {
+      "pass": true,
+      "detail": "m1-music vs m1-nomusic: 175 play frame(s) compared (114-299): 0 difference(s); end score 87, updates 271, level 0; title tune cost (frames before play that differ): 0",
+      "compared": 175,
+      "differences": [],
+      "title_diffs": []
+    },
+    "controls_exercised": {
+      "pass": true,
+      "detail": "all 8 controls pressed during play across 24 recipe run(s): left (o), right (p), up (q), down (a), fire (SPACE), mouse (1), secondary (ENTER), back (t)"
+    },
+    "song_visible": {
+      "pass": null,
+      "detail": "0 base song(s) in build.yaml music: (jingles marked jingle: true); HARNESS_song is needed from two"
+    },
+    "camera_step": {
+      "pass": null,
+      "detail": "skipped (report only): no HARNESS_cam symbol (camera x in pixels, resident below $C000; scrolling games)"
+    },
+    "toggle_latency": {
+      "pass": true,
+      "detail": "1-frame taps at 12 consecutive frames (update_frames 1): music (m) 12/12; music speed: music_parity configured"
+    },
+    "card_timing": {
+      "pass": null,
+      "detail": "skipped: no build.yaml cards block (e.g. game_over: {min: 150, max: 200, skip_after: 50})"
+    },
+    "kempston_absent": {
+      "pass": true,
+      "detail": "11 HARNESS symbols equal frame for frame over 301 play frames with an idle Kempston and with none fitted (floating bus); play from frame 101 / 101 after the same start presses"
+    }
+  },
+  "tap_sha256": "3b734751d9891c4a5b32432068256529df2c4af1cf3812d4b74f44019e46c85a",
+  "shots": [
+    {
+      "name": "recipe-m1-frames-240.png",
+      "path": "verify/shots/m3/recipe-m1-frames-240.png",
+      "sha256": "d1f0bb71ff567ead4c841234f6365308151966dff7a1735cdd9d8c7835ad5e71"
+    },
+    {
+      "name": "recipe-m1-frames-520.png",
+      "path": "verify/shots/m3/recipe-m1-frames-520.png",
+      "sha256": "aa815569e7026c58a4ef81e27ee8383d959facd673b9d3de23ca32412e57c46c"
+    },
+    {
+      "name": "recipe-m1-mouse-controls-145.png",
+      "path": "verify/shots/m3/recipe-m1-mouse-controls-145.png",
+      "sha256": "205f6b0d4a56c4fd1d6bc827820bafd78bf9edc41050a6ef34e81d8cc721d84a"
+    },
+    {
+      "name": "recipe-m1-mouse-controls-320.png",
+      "path": "verify/shots/m3/recipe-m1-mouse-controls-320.png",
+      "sha256": "dfc7870d0c23707b57ac43af4af2bfa4690954203230cecbc3ac7c8f8de41980"
+    },
+    {
+      "name": "recipe-m1-mouse-180.png",
+      "path": "verify/shots/m3/recipe-m1-mouse-180.png",
+      "sha256": "b3e47f29c9ea9a68f7ed2ac0d4171d237bcc7eae9a45ef5c6175701adc91119f"
+    },
+    {
+      "name": "recipe-m1-paint-keys-405.png",
+      "path": "verify/shots/m3/recipe-m1-paint-keys-405.png",
+      "sha256": "44dbe67bfef00032f55bd8abc4099c31609ae0fa400e4c612330c0dc46eee0ce"
+    },
+    {
+      "name": "recipe-m1-paint-keys-460.png",
+      "path": "verify/shots/m3/recipe-m1-paint-keys-460.png",
+      "sha256": "1d402ebbfccbe85e971075bf86a7c7f9b9786193050dc81a610c9e0e9decd215"
+    },
+    {
+      "name": "recipe-m1-play-200.png",
+      "path": "verify/shots/m3/recipe-m1-play-200.png",
+      "sha256": "cdc4a41af41a6f2bae41d3dfa7eee1f5654bce7880d41be8efaf952618d8d559"
+    },
+    {
+      "name": "recipe-m1-repeat-360.png",
+      "path": "verify/shots/m3/recipe-m1-repeat-360.png",
+      "sha256": "4658307413772d30433b5ed5805e71caf6d26c46b6c97b631b4d114941ce9a23"
+    },
+    {
+      "name": "recipe-m1-start-300.png",
+      "path": "verify/shots/m3/recipe-m1-start-300.png",
+      "sha256": "6d88460bdb85dcd1d0ee98707f4d9d2ae42baba160d2dc7468f4d7fe9f1f3bbf"
+    },
+    {
+      "name": "recipe-m1-start-400.png",
+      "path": "verify/shots/m3/recipe-m1-start-400.png",
+      "sha256": "0022cf9424c956288942c1b96a2d50c61d9934778c0e55d3e0670d824019f7a4"
+    },
+    {
+      "name": "recipe-m1-title-230.png",
+      "path": "verify/shots/m3/recipe-m1-title-230.png",
+      "sha256": "3bffb26bf8241e1b000e62a69889022a721309c265931a24e98a0702180e95bb"
+    },
+    {
+      "name": "recipe-m1-title-420.png",
+      "path": "verify/shots/m3/recipe-m1-title-420.png",
+      "sha256": "2510021ba04ac1d54cd2efe60e32b37a613ee720e1baff685042a02e5de627d3"
+    },
+    {
+      "name": "recipe-m1-undo-440.png",
+      "path": "verify/shots/m3/recipe-m1-undo-440.png",
+      "sha256": "4ba8de89b85b7d0f7afd487551247261838cff51d9d6dd5d993394ddd6c6e45b"
+    },
+    {
+      "name": "recipe-m1-ux-keep-175.png",
+      "path": "verify/shots/m3/recipe-m1-ux-keep-175.png",
+      "sha256": "32e3728bbad5e6abe5a617d689c70382fb1269e2a990b1c9c939ab7a207ea7d5"
+    },
+    {
+      "name": "recipe-m1-ux-keep-290.png",
+      "path": "verify/shots/m3/recipe-m1-ux-keep-290.png",
+      "sha256": "fe81a86bcd0fb9a6e8ba669d1173123f0ffa48c91e29e8ef4ecaf35f7c5169ca"
+    },
+    {
+      "name": "recipe-m1-ux-undo-330.png",
+      "path": "verify/shots/m3/recipe-m1-ux-undo-330.png",
+      "sha256": "a691c7f985522c9c0ebadd442360b06c32d4e6857f0d3568e0b9544d68beae7f"
+    },
+    {
+      "name": "recipe-m2-checks-20.png",
+      "path": "verify/shots/m3/recipe-m2-checks-20.png",
+      "sha256": "6d88460bdb85dcd1d0ee98707f4d9d2ae42baba160d2dc7468f4d7fe9f1f3bbf"
+    },
+    {
+      "name": "recipe-m2-checks-240.png",
+      "path": "verify/shots/m3/recipe-m2-checks-240.png",
+      "sha256": "9a8666fa22703c9294e058d5b9ab3edcddd1e3dc88b032c6b2e843836f83ef14"
+    },
+    {
+      "name": "recipe-m2-codes-300.png",
+      "path": "verify/shots/m3/recipe-m2-codes-300.png",
+      "sha256": "1b8bfaceb2789c82eafaf54ee6dfcff4c84a1dabd9b454182cf702311223a8ef"
+    },
+    {
+      "name": "recipe-m2-codes-370.png",
+      "path": "verify/shots/m3/recipe-m2-codes-370.png",
+      "sha256": "7278cda55f296dc86395fe8c301d95a331507c74f034f4e8e8389883117f13ef"
+    },
+    {
+      "name": "recipe-m2-drawer-180.png",
+      "path": "verify/shots/m3/recipe-m2-drawer-180.png",
+      "sha256": "7aade1c470515a004396c9008ccdca75ca4053078f0625949b83c2fc03a880de"
+    },
+    {
+      "name": "recipe-m2-drawer-270.png",
+      "path": "verify/shots/m3/recipe-m2-drawer-270.png",
+      "sha256": "68bb381e1e69708beb5ef3cfd85fd1b50fb47820f56740dcded74222dfd4724c"
+    },
+    {
+      "name": "recipe-m2-mirror-nudge-300.png",
+      "path": "verify/shots/m3/recipe-m2-mirror-nudge-300.png",
+      "sha256": "60676eb3a6ca2c99d539c55c0370a8cbf699dc9519ec22337b2715a54664965f"
+    },
+    {
+      "name": "recipe-m2-onion-220.png",
+      "path": "verify/shots/m3/recipe-m2-onion-220.png",
+      "sha256": "a2f5239d58a4c4382424d3e075ce63f84d5e5715d41d8512db8fbb87c8d545ad"
+    },
+    {
+      "name": "recipe-m2-onion-410.png",
+      "path": "verify/shots/m3/recipe-m2-onion-410.png",
+      "sha256": "1a0d13f9d5ab5cae2da3e061efa7ee4454d013e36d10df24d36c9c6ca8910bf6"
+    },
+    {
+      "name": "recipe-m2-showcase-600.png",
+      "path": "verify/shots/m3/recipe-m2-showcase-600.png",
+      "sha256": "f8804c47dd6eee688767f22703fd0a1693cc4bd1acd7c4d8a326e0ee530f5a6b"
+    },
+    {
+      "name": "recipe-m2-showcase-1000.png",
+      "path": "verify/shots/m3/recipe-m2-showcase-1000.png",
+      "sha256": "13bec9b237e183cf055cd4987084ac6703e76722e81b8e15f5c9680f190d82f5"
+    },
+    {
+      "name": "recipe-m2-showcase-1850.png",
+      "path": "verify/shots/m3/recipe-m2-showcase-1850.png",
+      "sha256": "3c081c69184c6ab1503abf8f2fc8ee54bc5c5d68ca2b45c7b4ade6684ce2a0ed"
+    },
+    {
+      "name": "recipe-m3-all-230.png",
+      "path": "verify/shots/m3/recipe-m3-all-230.png",
+      "sha256": "8a5bb4adab93bd044ae2ecbf900536c8c66cbeca4cb5e5a7c929fbf105c7393e"
+    },
+    {
+      "name": "recipe-m3-big-540.png",
+      "path": "verify/shots/m3/recipe-m3-big-540.png",
+      "sha256": "aa4c192e4a6dac21ccf309724ab8d697f3ac405a2397429a0e468f8f1fa1a0f7"
+    },
+    {
+      "name": "recipe-m3-big-700.png",
+      "path": "verify/shots/m3/recipe-m3-big-700.png",
+      "sha256": "62c587b7599c43d0e3fd6104a9090e858957c0b7e8d0a7f7656a7a48f39e0aed"
+    },
+    {
+      "name": "recipe-m3-big-704.png",
+      "path": "verify/shots/m3/recipe-m3-big-704.png",
+      "sha256": "1e3befeb1f97a5d8406012a51d6948b651fb4aed434b68251231e4588739f4a7"
+    },
+    {
+      "name": "recipe-m3-big-708.png",
+      "path": "verify/shots/m3/recipe-m3-big-708.png",
+      "sha256": "98bdb9be03c3a9c012374d50f02ef0adf6357be1279231c32ac5a8e3fd8dde0a"
+    },
+    {
+      "name": "recipe-m3-big-712.png",
+      "path": "verify/shots/m3/recipe-m3-big-712.png",
+      "sha256": "a1c6b1206f6898be221ce9e209d9eb015d2c731d50768f5c48920bf89170da97"
+    },
+    {
+      "name": "recipe-m3-box-330.png",
+      "path": "verify/shots/m3/recipe-m3-box-330.png",
+      "sha256": "76d7b779af2a221ab1828ef1a42be1cdfd913a12b7a6aa8f142d1e1eb402f929"
+    },
+    {
+      "name": "recipe-m3-box-420.png",
+      "path": "verify/shots/m3/recipe-m3-box-420.png",
+      "sha256": "ef328404bb7157c94aae4dfc1d1a08b0fdd0b7e85bae722707db1cf6fbb27866"
+    },
+    {
+      "name": "recipe-m3-box-530.png",
+      "path": "verify/shots/m3/recipe-m3-box-530.png",
+      "sha256": "d1e1a124f92f6aade0572a8f6de783aa622640bdcb4434006e509e7fcbd7ceba"
+    },
+    {
+      "name": "recipe-m3-box-640.png",
+      "path": "verify/shots/m3/recipe-m3-box-640.png",
+      "sha256": "fa33ee9ecf306fef75b19a306ab000dcadd30746c0f4df0ffca51f76360c4d38"
+    },
+    {
+      "name": "recipe-m3-library-230.png",
+      "path": "verify/shots/m3/recipe-m3-library-230.png",
+      "sha256": "6a843403317f77942debabef303afcafe9da30ff69f5888c1703def1784b84ce"
+    },
+    {
+      "name": "recipe-m3-library-387.png",
+      "path": "verify/shots/m3/recipe-m3-library-387.png",
+      "sha256": "000b6721211dcd673b979db69a3fac574d0eec77ebf6b580fca972048ce4726f"
+    },
+    {
+      "name": "recipe-m3-library-442.png",
+      "path": "verify/shots/m3/recipe-m3-library-442.png",
+      "sha256": "7664b78ceb033fda2a944218cc385b7bbc5f285d65e1c2874692168ea756059d"
+    },
+    {
+      "name": "recipe-m3-small-190.png",
+      "path": "verify/shots/m3/recipe-m3-small-190.png",
+      "sha256": "bc7190071c469b71752281c759fcf807c639d8723401da3597337fafcf00c26c"
+    },
+    {
+      "name": "recipe-m3-small-240.png",
+      "path": "verify/shots/m3/recipe-m3-small-240.png",
+      "sha256": "c66c788e6006d135eb97589d45e207308605f3f173d2744a70dddef72871f249"
+    },
+    {
+      "name": "recipe-m3-small-290.png",
+      "path": "verify/shots/m3/recipe-m3-small-290.png",
+      "sha256": "8ba299ab28addfb77420feb23129f23c188a586aec7383e0f5eb9d834861e8dc"
+    },
+    {
+      "name": "recipe-m3-small-400.png",
+      "path": "verify/shots/m3/recipe-m3-small-400.png",
+      "sha256": "f7949b4c364695e2930580dd11114aa72b3c466626cf90722601714c13f1d2e4"
+    },
+    {
+      "name": "recipe-m3-small-450.png",
+      "path": "verify/shots/m3/recipe-m3-small-450.png",
+      "sha256": "0925e47a055dcd3237a73aa944d240cd71fd6e92a978062fc572195defac335f"
+    }
+  ],
+  "milestone": 3
+}

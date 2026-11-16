@@ -1,0 +1,13 @@
+# library-check, M7, tap sha256 d5d367981b573fab9cb264ee82812e05d92c181ca2935db8047a1b0670839e91
+# $ZX_PYTHON tools/library_check.py 7
+PASS  line 2 bank 1 SET 1    32X16: frames, masks, style 3, ink 2
+PASS  line 17 bank 1 SCURRY E 16X16: frames, masks, style 3, ink 2
+PASS  line 66 bank 1 POSES    24X32: frames, masks, style 3, ink 2
+PASS  line 84 bank 1 SET 3    8X8: frames, masks, style 3, ink 2
+PASS  line 100 bank 1 POSES    16X8: frames, masks, style 3, ink 2
+PASS  line 120 bank 4 POSES    16X24: frames, masks, style 3, ink 2
+PASS  line 135 bank 4 BELL     24X32: frames, masks, style 3, ink 2
+PASS  line 148 bank 4 SET 1    8X8: frames, masks, style 3, ink 2
+PASS  line 29 bank 1 POSES    16X16: frames, masks, style 0, ink 2
+PASS  line 138 bank 1 POSES    8X8: frames, masks, style 0, ink 2
+PASS  10 Library figures open whole (banks 1 and 4; 8 with their game's masks)

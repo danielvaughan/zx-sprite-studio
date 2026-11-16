@@ -1,0 +1,35 @@
+# tools/screen_check.py 4 on tap c05a99451bb09b8d06b3621b0ec21bbafeac76b786c6f3531cd54d958b35a7a5
+PASS  m1-frames: settle 2 frames after the last key
+PASS  m1-mouse: settle 2 frames after the last key
+PASS  m1-mouse-controls: settle 2 frames after the last key
+PASS  m1-music: settle 2 frames after the last key
+PASS  m1-nomusic: settle 2 frames after the last key
+PASS  m1-paint-keys: settle 2 frames after the last key
+PASS  m1-play: settle 2 frames after the last key
+PASS  m1-repeat: settle 2 frames after the last key
+PASS  m1-start: settle 26 frames after the last key
+PASS  m1-title: settle 2 frames after the last key
+PASS  m1-undo: settle 6 frames after the last key
+PASS  m1-ux-keep: settle 24 frames after the last key
+PASS  m1-ux-undo: settle 6 frames after the last key
+PASS  m2-checks: settle 2 frames after the last key
+PASS  m2-codes: settle 2 frames after the last key
+PASS  m2-drawer: settle 4 frames after the last key
+PASS  m2-mirror-nudge: settle 6 frames after the last key
+PASS  m2-onion: settle 2 frames after the last key
+PASS  m2-showcase: settle 2 frames after the last key
+PASS  m3-all: settle 8 frames after the last key
+PASS  m3-big: settle 4 frames after the last key
+PASS  m3-box: settle 2 frames after the last key
+PASS  m3-library: settle 16 frames after the last key
+PASS  m3-small: settle 6 frames after the last key
+PASS  m4-ground: settle 26 frames after the last key
+PASS  m4-ground-play: settle 6 frames after the last key
+PASS  m4-ground-stay: settle 16 frames after the last key
+PASS  m4-hand: settle 6 frames after the last key
+PASS  m4-mask-ms: settle 60 frames after the last key
+PASS  m4-ring: settle 2 frames after the last key
+PASS  m4-settle-keys: settle 36 frames after the last key
+PASS  m4-settle-ms: settle 64 frames after the last key
+PASS  m4-settle-open: settle 58 frames after the last key
+longest settle: 64 frames (m4-settle-ms)

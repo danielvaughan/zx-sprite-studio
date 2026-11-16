@@ -1,0 +1,12 @@
+# lessons-check, M7, tap sha256 d5d367981b573fab9cb264ee82812e05d92c181ca2935db8047a1b0670839e91
+# $ZX_PYTHON tools/lessons_check.py 7
+PASS  lesson 1 from cold: '1: ROW 1 IS 28 00, TWO BYTES'
+PASS  lesson 2 from cold: '2: TRACING PAPER ON, PLAYING'
+PASS  lesson 3 from cold: '3: COPY, MIX, MASK THEN MIX'
+PASS  lesson 4 from cold: '4: RING MASK. F TWICE: BOX'
+PASS  lesson 5 from cold: '5: WATCH RUB OUT, DRAW BLINK'
+PASS  lesson 6 from cold: '6: INK MODE: CLASHES FLASH'
+PASS  the reader's figure kept on the sheet, its square still inked
+PASS  a drawing on the lessons' figure is kept: the next lesson took a figure of its own (3 on the sheet)
+PASS  36 of 36 ordered pairs leave the state of the second lesson alone
+PASS  lessons

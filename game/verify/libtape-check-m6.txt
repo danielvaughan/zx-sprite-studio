@@ -1,0 +1,9 @@
+# libtape-check, M6, tap sha256 d8bf5be67877068931b33b9fb4fa4e252f7aab752b14b18265b6b47388d19a6f
+# $ZX_PYTHON tools/libtape_check.py 6
+all-disco.tap: file 'ALL DIS 1', 8 figures loaded and opened, as the Library has them
+antigravity.tap: file 'ANTIGRAV', 4 figures loaded and opened, as the Library has them
+gold-master.tap: file 'GOLD MA 1', 8 figures loaded and opened, as the Library has them
+mower-mayhem.tap: file 'MOWER M 1', 8 figures loaded and opened, as the Library has them
+tiger-gorilla.tap: file 'TIGER G 1', 8 figures loaded and opened, as the Library has them
+wolf.tap: file 'WOLF 1', 8 figures loaded and opened, as the Library has them
+PASS  library tapes: each first file loads as a sheet

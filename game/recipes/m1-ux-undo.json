@@ -1,0 +1,1 @@
+{"keys": "100-104:2;110-111:l;126-127:ENTER;150-250:q;300-301:SPACE;320-321:p;340-341:ENTER;360-361:u", "frames": 400, "screenshots": [330], "expect": {"state_at_end": 1, "symbols": [{"symbol": "frames_data+1", "sequence": [0, 128, 0], "from_frame": 0}, {"symbol": "last_event", "at_end": 8}, {"symbol": "gc_col", "at_end": 9}]}}

@@ -1,0 +1,9 @@
+{
+  // Generated evidence is kept as it was written: build output, verify reports, playtest
+  // rounds, media kits and the milestone status file.
+  "ignores": [
+    ".git/**", "**/.venv/**", "build/**",
+    "game/build/**", "game/verify/**", "game/playtest/**", "game/media-kit/**",
+    "game/STATUS.md"
+  ]
+}

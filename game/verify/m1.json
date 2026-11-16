@@ -1,0 +1,262 @@
+{
+  "pass": true,
+  "result": "pass",
+  "checks": {
+    "build": {
+      "pass": true,
+      "detail": "sprite-studio-m1.tap sha256 19d29dcbf51f4ebd..."
+    },
+    "memmap": {
+      "pass": true,
+      "detail": "no problems"
+    },
+    "unreferenced_data": {
+      "pass": true,
+      "detail": "no unreferenced generated labels"
+    },
+    "cold_load": {
+      "pass": true,
+      "detail": "ROM load reached start $8000"
+    },
+    "reaches_play": {
+      "pass": true,
+      "detail": "play at frame 100 after 1 start press(es): 100-104:2"
+    },
+    "update_rate": {
+      "pass": true,
+      "detail": "1.017 frames/update measured, build.yaml update_frames 1 (1.7% off, limit 5%); worst 100-frame stretch over 12 run(s): 1.000 frames/update in smoke frames 120-220 (+0.0%)",
+      "worst": {
+        "run": "smoke",
+        "start": 120,
+        "frames": 100,
+        "fpu": 1.0
+      }
+    },
+    "update_cost": {
+      "pass": true,
+      "detail": "4421 play updates over 15 run(s): median 15114, p90 43665, max 576579 busy T (max in recipe-m1-mouse-controls frame 108); p90 is 62% of the update period (1 x 70908 T); update_budget_t 45000: p90 within budget"
+    },
+    "no_crash": {
+      "pass": true,
+      "detail": "17 runs, no crash"
+    },
+    "no_soft_lock": {
+      "pass": true,
+      "detail": "17 runs, no soft lock"
+    },
+    "input_latency": {
+      "pass": true,
+      "detail": "30/30 one-frame taps raised steer_n within 2 frames (tap frame + update_frames 1); slowest response at tap+0; idle drift 0 over frames 119-334, idle moved in 0/30 tap windows (key p, watch steer_n, direction up)"
+    },
+    "flicker": {
+      "pass": true,
+      "detail": "0 transient bitmap bytes in 520 play frames; 266 late bytes (shown one frame late) in 8 frames; 16 redraw frames exempt (HARNESS_redraw)"
+    },
+    "house_loader": {
+      "pass": true,
+      "detail": "loader prints DALEX SOFTWARE / PRESENTS / SPRITE STUDIO / the bar (lines 12-18); 3 header(s) named 'S.STUDIO'"
+    },
+    "house_logo": {
+      "pass": true,
+      "detail": "loading screen holds lockup-a byte for byte (rows 20-23, cols 22-31)"
+    },
+    "house_footer": {
+      "pass": true,
+      "detail": "title row 23 (bank 5, frame 20) equals footer-row.bin byte for byte"
+    },
+    "ident_skip": {
+      "pass": null,
+      "detail": "skipped: no boot ident (DEFINE ZXG_IDENT before INCLUDE \"house/house.asm\")"
+    },
+    "recipe:m1-frames": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol nframes sequence: expected [2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1] in order, values [2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1]; symbol frames_data+66 seen: expected [84], saw [0, 84]; symbol last_event seen: expected [18], saw [4, 5, 6, 15, 18, 19]; symbol last_event at_end: expected 19, got 19; symbol cur_frame at_end: expected 0, got 0; reached_play=True, end state 1, 960 frames"
+    },
+    "recipe:m1-mouse-controls": {
+      "pass": true,
+      "detail": "FIXTURE (9 poke(s): ms_lastx=175 at frame 130, ms_lasty=43 at frame 130, ms_lastx=67 at frame 170, ms_lasty=31 at frame 170, ms_lastx=67 at frame 175, ms_lasty=187 at frame 210, ms_lasty=187 at frame 215, ms_lastx=199 at frame 250, ms_lasty=55 at frame 250); state_at_end: expected 1, got 1; symbol nframes at_end: expected 3, got 3; symbol last_event seen: expected [5, 14, 7], saw [1, 5, 7, 14, 15]; symbol cur_frame at_end: expected 0, got 0; symbol frames_data at_end: expected 64, got 64; symbol frames_data+2 at_end: expected 32, got 32; symbol frames_data+4 at_end: expected 16, got 16; symbol frames_data+6 at_end: expected 8, got 8; symbol frames_data+8 at_end: expected 4, got 4; symbol frames_data+10 at_end: expected 2, got 2; symbol frames_data+12 at_end: expected 1, got 1; symbol frames_data+15 at_end: expected 128, got 128; symbol inked at_end: expected 8, got 8; reached_play=True, end state 1, 340 frames",
+      "fixture": true
+    },
+    "recipe:m1-mouse": {
+      "pass": true,
+      "detail": "FIXTURE (2 poke(s): ms_lastx=247 at frame 130, ms_lasty=247 at frame 160); state_at_end: expected 1, got 1; symbol cur_x seen: expected [80], saw [72, 80, 84]; symbol cur_y seen: expected [72], saw [72, 76, 80]; symbol input_dev at_end: expected 2, got 2; symbol gc_col at_end: expected 9, got 9; symbol gc_row at_end: expected 7, got 7; reached_play=True, end state 1, 260 frames",
+      "fixture": true
+    },
+    "recipe:m1-music": {
+      "pass": true,
+      "detail": "state_at_end: expected 0, got 0; symbol music at_end: expected 1, got 1; reached_play=True, end state 0, 360 frames"
+    },
+    "recipe:m1-nomusic": {
+      "pass": true,
+      "detail": "state_at_end: expected 0, got 0; symbol music at_end: expected 0, got 0; reached_play=True, end state 0, 360 frames"
+    },
+    "recipe:m1-paint-keys": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol frames_data+1 seen: expected [252], saw [0, 128, 192, 224, 240, 248, 252]; symbol frames_data+1 at_end: expected 240, got 240; symbol inked seen: expected [92], saw [0, 86, 87, 88, 89, 90, 91, 92]; symbol inked at_end: expected 90, got 90; symbol gc_row at_end: expected 0, got 0; symbol gc_col at_end: expected 12, got 12; reached_play=True, end state 1, 470 frames"
+    },
+    "recipe:m1-play": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol play_frame sequence: expected [0, 1, 0, 1, 0] in order, values [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, ...]; symbol play_lvl seen: expected [0], saw [0, 1, 2, 3, 4, 5]; symbol last_event seen: expected [21], saw [10, 12, 13, 15, 21, 22]; symbol play_lvl at_end: expected 5, got 5; symbol last_event at_end: expected 22, got 22; symbol play_on at_end: expected 1, got 1; reached_play=True, end state 1, 440 frames"
+    },
+    "recipe:m1-repeat": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol gc_col seen: expected [0, 10], saw [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; symbol gc_col [frames 300-399] max: expected every value <= 10, highest 10; symbol gc_col at_end: expected 0, got 0; symbol gc_row at_end: expected 0, got 0; reached_play=True, end state 1, 520 frames"
+    },
+    "recipe:m1-start": {
+      "pass": true,
+      "detail": "state_sequence: expected [0, 1] in order, trace [0, 1]; state_at_end: expected 1, got 1; symbol input_dev seen: expected [0], saw [0, 2]; symbol state [frames 10-310] max: expected every value <= 0, highest 0; symbol input_dev at_end: expected 2, got 2; symbol nframes at_end: expected 2, got 2; symbol gc_col at_end: expected 8, got 8; symbol gc_row at_end: expected 8, got 8; symbol cur_x at_end: expected 76, got 76; symbol cur_y at_end: expected 84, got 84; symbol music at_end: expected 1, got 1; reached_play=True, end state 1, 420 frames"
+    },
+    "recipe:m1-title": {
+      "pass": true,
+      "detail": "state_sequence: expected [0, 1, 0, 1] in order, trace [0, 1, 0, 1]; state_at_end: expected 1, got 1; symbol cur_frame at_end: expected 1, got 1; symbol play_on at_end: expected 1, got 1; symbol inked at_end: expected 90, got 90; symbol undo_ok at_end: expected 0, got 0; reached_play=True, end state 1, 440 frames"
+    },
+    "recipe:m1-undo": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol frames_data+1 sequence: expected [0, 128, 0, 128] in order, values [0, 128, 0, 128]; symbol last_event at_end: expected 9, got 9; symbol undo_ok at_end: expected 1, got 1; reached_play=True, end state 1, 450 frames"
+    },
+    "recipe:m1-ux-keep": {
+      "pass": true,
+      "detail": "state_sequence: expected [0, 1, 0, 1] in order, trace [0, 1, 0, 1]; state_at_end: expected 1, got 1; symbol gc_col at_end: expected 10, got 10; symbol gc_row at_end: expected 9, got 9; reached_play=True, end state 1, 300 frames"
+    },
+    "recipe:m1-ux-undo": {
+      "pass": true,
+      "detail": "state_at_end: expected 1, got 1; symbol frames_data+1 sequence: expected [0, 128, 0] in order, values [0, 128, 0]; symbol last_event at_end: expected 8, got 8; symbol gc_col at_end: expected 9, got 9; reached_play=True, end state 1, 400 frames"
+    },
+    "music_toggle": {
+      "pass": true,
+      "detail": "HARNESS_music 1 -> 0 -> 1 with m at frames 100 and 180 on the title; AY music writes 160 while on, 0 while off (frames 115-164); effects writes 0 (may continue); attributed by source (music: mus_tick; effects: sfx_tick)"
+    },
+    "sfx_toggle": {
+      "pass": null,
+      "detail": "skipped (report only): no HARNESS_sfx symbol (optional effects on/off byte: 1 on, 0 off; key keys.sfx)"
+    },
+    "audio": {
+      "pass": null,
+      "detail": "skipped: no build.yaml music: songs declared, so no music evidence is bound to this tap (declare each song with its zx-assets ayframes reference; see zx-game-build)"
+    },
+    "contact": {
+      "pass": null,
+      "detail": "skipped: no build.yaml contact block (a no-harm game declares its no-contact pairs there; zx-game-verify)"
+    },
+    "music_parity": {
+      "pass": true,
+      "detail": "m1-music vs m1-nomusic: 192 play frame(s) compared (108-299): 0 difference(s); end score 87, updates 289, level 0; title tune cost (frames before play that differ): 0",
+      "compared": 192,
+      "differences": [],
+      "title_diffs": []
+    },
+    "controls_exercised": {
+      "pass": true,
+      "detail": "all 8 controls pressed during play across 13 recipe run(s): left (o), right (p), up (q), down (a), fire (SPACE), mouse (1), secondary (ENTER), back (t)"
+    },
+    "song_visible": {
+      "pass": null,
+      "detail": "0 base song(s) in build.yaml music: (jingles marked jingle: true); HARNESS_song is needed from two"
+    },
+    "camera_step": {
+      "pass": null,
+      "detail": "skipped (report only): no HARNESS_cam symbol (camera x in pixels, resident below $C000; scrolling games)"
+    },
+    "toggle_latency": {
+      "pass": true,
+      "detail": "1-frame taps at 12 consecutive frames (update_frames 1): music (m) 12/12; music speed: music_parity configured"
+    },
+    "card_timing": {
+      "pass": null,
+      "detail": "skipped: no build.yaml cards block (e.g. game_over: {min: 150, max: 200, skip_after: 50})"
+    },
+    "kempston_absent": {
+      "pass": true,
+      "detail": "11 HARNESS symbols equal frame for frame over 301 play frames with an idle Kempston and with none fitted (floating bus); play from frame 101 / 101 after the same start presses"
+    }
+  },
+  "tap_sha256": "19d29dcbf51f4ebd410f61a5faf457fa3bd077028628bf8eb0b62994e07146e3",
+  "shots": [
+    {
+      "name": "recipe-m1-frames-240.png",
+      "path": "verify/shots/m1/recipe-m1-frames-240.png",
+      "sha256": "925eec73153df8ead634ef6760d054f1485590ebb5d99d03dfdca714c5814c1a"
+    },
+    {
+      "name": "recipe-m1-frames-520.png",
+      "path": "verify/shots/m1/recipe-m1-frames-520.png",
+      "sha256": "adf261f30c427b62e30edda8fa1695851aeae4ea16c24498173ccab690c5c493"
+    },
+    {
+      "name": "recipe-m1-mouse-controls-145.png",
+      "path": "verify/shots/m1/recipe-m1-mouse-controls-145.png",
+      "sha256": "7ca1a2f6c1a4a449d8e0cd082d13749aed630f25ac6caa1bf0c0772ef0e10e7c"
+    },
+    {
+      "name": "recipe-m1-mouse-controls-320.png",
+      "path": "verify/shots/m1/recipe-m1-mouse-controls-320.png",
+      "sha256": "87263e5a59feb20a3002772df55106eff2fba4c3dc60f6bd677b795146d106ac"
+    },
+    {
+      "name": "recipe-m1-mouse-180.png",
+      "path": "verify/shots/m1/recipe-m1-mouse-180.png",
+      "sha256": "e2c157059b7b02bf721908a86f4f061abfbddb39043299673f84577bb4d3cbf2"
+    },
+    {
+      "name": "recipe-m1-paint-keys-405.png",
+      "path": "verify/shots/m1/recipe-m1-paint-keys-405.png",
+      "sha256": "9c7da468f76b463b303dd56707f986bc800396623d05fee75efeaa4f4159f3c9"
+    },
+    {
+      "name": "recipe-m1-paint-keys-460.png",
+      "path": "verify/shots/m1/recipe-m1-paint-keys-460.png",
+      "sha256": "cd76a2a08f12ee468c6cb5cf9d4bd1da461642e469c96abcddeefa034a922196"
+    },
+    {
+      "name": "recipe-m1-play-200.png",
+      "path": "verify/shots/m1/recipe-m1-play-200.png",
+      "sha256": "33e5a072b6471370cc13b61ce798cf1ba9af340324e85d848c535995351380d0"
+    },
+    {
+      "name": "recipe-m1-repeat-360.png",
+      "path": "verify/shots/m1/recipe-m1-repeat-360.png",
+      "sha256": "1fb560cb5bf3e1db2da6d82de73c96ad498bb43e2c1075ac12847090defaccf6"
+    },
+    {
+      "name": "recipe-m1-start-300.png",
+      "path": "verify/shots/m1/recipe-m1-start-300.png",
+      "sha256": "3e27b4130427cfeb0f73fec73e6d6937b34ba45c28f453153fc7b0c75e4bcaec"
+    },
+    {
+      "name": "recipe-m1-start-400.png",
+      "path": "verify/shots/m1/recipe-m1-start-400.png",
+      "sha256": "4fbb78eb7e1c450f1a3a9a4e0f904b46358ee2abc787c46a8315e754c34b9072"
+    },
+    {
+      "name": "recipe-m1-title-230.png",
+      "path": "verify/shots/m1/recipe-m1-title-230.png",
+      "sha256": "01c95083a414bd5681eac473513b78c6bd7d341cb942e6a39d3566694c8af49f"
+    },
+    {
+      "name": "recipe-m1-title-420.png",
+      "path": "verify/shots/m1/recipe-m1-title-420.png",
+      "sha256": "95f849d757bb9e0888d456150ed18b22c9297579a9eeaa901511e9596c79c748"
+    },
+    {
+      "name": "recipe-m1-undo-440.png",
+      "path": "verify/shots/m1/recipe-m1-undo-440.png",
+      "sha256": "b2433ad7b1c2c4f293ac0b60c5e45dd58acbcb170e154b2b27ff27d7c7afac8e"
+    },
+    {
+      "name": "recipe-m1-ux-keep-175.png",
+      "path": "verify/shots/m1/recipe-m1-ux-keep-175.png",
+      "sha256": "ba79d382d29f854a91e2c027d471ea47b65f046e78922545094d2118ab247a1b"
+    },
+    {
+      "name": "recipe-m1-ux-keep-290.png",
+      "path": "verify/shots/m1/recipe-m1-ux-keep-290.png",
+      "sha256": "ba79d382d29f854a91e2c027d471ea47b65f046e78922545094d2118ab247a1b"
+    },
+    {
+      "name": "recipe-m1-ux-undo-330.png",
+      "path": "verify/shots/m1/recipe-m1-ux-undo-330.png",
+      "sha256": "613eebbabc065e281e8a04629fe3a312a52b477b83a865043a2f2a889f6aa68e"
+    }
+  ],
+  "milestone": 1
+}

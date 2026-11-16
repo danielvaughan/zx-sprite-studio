@@ -1,0 +1,410 @@
+[
+ {
+  "id": "01-hello+02-paper",
+  "shot": "talk open",
+  "start_s": 0.0,
+  "end_s": 9.64,
+  "text": "Hello, I'm Joo, the sprite artist at Dallex. This is Sprite Studio. It's my squared paper, on the one two eight K Spectrum.",
+  "heard": "Hello, I'm Ju, the sprite artist at Daleks. This is Sprite Studio. It's my squared paper on the 128k spectrum."
+ },
+ {
+  "id": "27-bye",
+  "shot": "talk close",
+  "start_s": 238.943,
+  "end_s": 243.263,
+  "text": "Now draw something, flip it, and show me. I'll find your stray pixel.",
+  "heard": "Now draw something, flip it and show me, I'll find your stray pixel."
+ },
+ {
+  "id": "03-keys",
+  "shot": "start and desk",
+  "start_s": 12.54,
+  "end_s": 16.98,
+  "text": "Press two for the keys. Q, A, O and P move the cursor.",
+  "heard": "Press 2 for the keys. Q, A, O and P move the cursor."
+ },
+ {
+  "id": "04-paint",
+  "shot": "start and desk",
+  "start_s": 17.84,
+  "end_s": 21.6,
+  "text": "Press space to paint a square. Hold it and move to draw a line.",
+  "heard": "Press space to paint a square, hold it and move to draw a line."
+ },
+ {
+  "id": "04b-true",
+  "shot": "start and desk",
+  "start_s": 21.94,
+  "end_s": 25.78,
+  "text": "The pictures at the top show it at true size, as a player sees it.",
+  "heard": "The pictures at the top show it at true size as a player sees it."
+ },
+ {
+  "id": "04c-hex",
+  "shot": "start and desk",
+  "start_s": 26.14,
+  "end_s": 30.3,
+  "text": "And the numbers beside each row are that row's two bytes, in hex.",
+  "heard": "and the numbers beside each row are that row's two bytes in hex."
+ },
+ {
+  "id": "05-lessons",
+  "shot": "lesson 1",
+  "start_s": 31.331,
+  "end_s": 34.451,
+  "text": "Press nought for the Lessons, from my drawing chapter.",
+  "heard": "Press 0 for the lessons from my drawing chapter."
+ },
+ {
+  "id": "06-l1",
+  "shot": "lesson 1",
+  "start_s": 34.931,
+  "end_s": 38.491,
+  "text": "Lesson one. A figure is just rows of dots.",
+  "heard": "Lesson 1. A figure is just rows of dots."
+ },
+ {
+  "id": "07a-bits",
+  "shot": "lesson 1",
+  "start_s": 38.831,
+  "end_s": 43.271,
+  "text": "Every square is one bit: inked is a one, empty is a zero.",
+  "heard": "Every square is one bit. Inked is a 1, empty is a 0."
+ },
+ {
+  "id": "07b-bytes",
+  "shot": "lesson 1",
+  "start_s": 43.631,
+  "end_s": 47.471,
+  "text": "Eight squares make a byte, so a row of sixteen is two bytes.",
+  "heard": "Eight squares make a byte, so a row of sixteen is two bytes."
+ },
+ {
+  "id": "07c-worth",
+  "shot": "lesson 1",
+  "start_s": 47.831,
+  "end_s": 52.911,
+  "text": "Read a byte from the left. Its squares are worth one hundred and twenty-eight,",
+  "heard": "Read a byte from the left. Its squares are worth 128."
+ },
+ {
+  "id": "07d-worth2",
+  "shot": "lesson 1",
+  "start_s": 53.131,
+  "end_s": 58.051,
+  "text": "then sixty-four, thirty-two, sixteen, eight, four, two and one.",
+  "heard": "then 64 32 16 8 4 2 and 1"
+ },
+ {
+  "id": "07e-row1",
+  "shot": "lesson 1",
+  "start_s": 58.431,
+  "end_s": 61.991,
+  "text": "On row one of the Mower, squares two and four are inked.",
+  "heard": "On row one of the mower, squares two and four are inked."
+ },
+ {
+  "id": "07f-add",
+  "shot": "lesson 1",
+  "start_s": 62.331,
+  "end_s": 66.891,
+  "text": "They're worth thirty-two and eight. Add them up, and you get forty.",
+  "heard": "They're worth 32 and 8. Add them up and you get 40."
+ },
+ {
+  "id": "07g-hex",
+  "shot": "lesson 1",
+  "start_s": 67.231,
+  "end_s": 72.431,
+  "text": "In hex, forty is two sixteens and eight, so it's written two eight.",
+  "heard": "in hex. Forty is two sixteens and eight, so it's written two eight."
+ },
+ {
+  "id": "07h-right",
+  "shot": "lesson 1",
+  "start_s": 72.731,
+  "end_s": 76.491,
+  "text": "The right half of the row is empty, so that byte is zero zero.",
+  "heard": "The right half of the row is empty, so that byte is zero, zero."
+ },
+ {
+  "id": "07i-f",
+  "shot": "lesson 1",
+  "start_s": 76.831,
+  "end_s": 82.471,
+  "text": "Now I'll ink the very last square, worth one. Watch the right byte.",
+  "heard": "Now I'll ink the very last square, worth one. Watch the right bite."
+ },
+ {
+  "id": "07j-01",
+  "shot": "lesson 1",
+  "start_s": 83.231,
+  "end_s": 87.831,
+  "text": "It reads zero one. You can read any sprite this way, a row at a time.",
+  "heard": "It reads 01. You can read any sprite this way, a row at a time."
+ },
+ {
+  "id": "08-l2",
+  "shot": "lesson 2",
+  "start_s": 89.307,
+  "end_s": 93.547,
+  "text": "Lesson two. Tracing paper shows the last frame as little rings.",
+  "heard": "Lesson 2. Tracing paper shows the last frame as little rings."
+ },
+ {
+  "id": "08b-anim",
+  "shot": "lesson 2",
+  "start_s": 93.907,
+  "end_s": 97.827,
+  "text": "A moving figure is just a few pictures, shown one after another.",
+  "heard": "A moving figure is just a few pictures shown one after another."
+ },
+ {
+  "id": "08c-rows",
+  "shot": "lesson 2",
+  "start_s": 98.207,
+  "end_s": 102.127,
+  "text": "The Mower's two frames differ in only four rows, at its corners.",
+  "heard": "The mower's two frames differ in only four rows, at its corners."
+ },
+ {
+  "id": "09-l2-play",
+  "shot": "lesson 2",
+  "start_s": 102.507,
+  "end_s": 106.187,
+  "text": "And the flip book plays both frames, at the speed the game uses.",
+  "heard": "and the flipbook plays both frames at the speed the game uses."
+ },
+ {
+  "id": "09b-speed",
+  "shot": "lesson 2",
+  "start_s": 106.507,
+  "end_s": 111.627,
+  "text": "Each picture stays up for four TV frames: nought point nought eight seconds.",
+  "heard": "Each picture stays up for 4 TV frames, 0.08 seconds."
+ },
+ {
+  "id": "10-l4",
+  "shot": "lesson 4",
+  "start_s": 112.797,
+  "end_s": 117.397,
+  "text": "Lesson four, the mask. It clears the scenery under the figure.",
+  "heard": "Lesson 4: The mask. It clears the scenery under the figure."
+ },
+ {
+  "id": "11b-ring",
+  "shot": "lesson 4",
+  "start_s": 117.697,
+  "end_s": 121.617,
+  "text": "The hatched squares are covered: the ink, the paper inside, and a ring.",
+  "heard": "The hatched squares are covered, the ink, the paper inside and a ring."
+ },
+ {
+  "id": "11-l4-ring",
+  "shot": "lesson 4",
+  "start_s": 121.997,
+  "end_s": 125.997,
+  "text": "The Ring mask adds one dot all round the ink. F changes it.",
+  "heard": "The ring mask adds one dot all round the ink. F changes it."
+ },
+ {
+  "id": "12-l4-box",
+  "shot": "lesson 4",
+  "start_s": 126.297,
+  "end_s": 129.777,
+  "text": "Shape has no ring. Box covers the whole box.",
+  "heard": "Shape has no ring. Box covers the whole box."
+ },
+ {
+  "id": "13-l3",
+  "shot": "lesson 3",
+  "start_s": 130.989,
+  "end_s": 135.149,
+  "text": "Lesson three. The Test Ground puts it down three ways.",
+  "heard": "Lesson three. The test ground puts it down three ways."
+ },
+ {
+  "id": "14-l3-copy",
+  "shot": "lesson 3",
+  "start_s": 135.489,
+  "end_s": 139.889,
+  "text": "Copy wipes out the grass in its box. Mix lets the grass show through.",
+  "heard": "Copy wipes out the grass in its box. Mix lets the grass show through."
+ },
+ {
+  "id": "14b-mix",
+  "shot": "lesson 3",
+  "start_s": 140.189,
+  "end_s": 143.549,
+  "text": "That's quick, but in busy grass the figure gets hard to see.",
+  "heard": "That's quick, but in busy grass the figure gets hard to see."
+ },
+ {
+  "id": "15-l3-mask",
+  "shot": "lesson 3",
+  "start_s": 143.889,
+  "end_s": 148.689,
+  "text": "Mask then mix clears the grass under the mask, then adds the ink.",
+  "heard": "Mask then mix clears the grass under the mask Then adds the ink"
+ },
+ {
+  "id": "15b-clean",
+  "shot": "lesson 3",
+  "start_s": 148.989,
+  "end_s": 152.589,
+  "text": "The figure stays solid, with the grass right up to its edge.",
+  "heard": "The figure stays solid, with the grass right up to its edge."
+ },
+ {
+  "id": "16-l5",
+  "shot": "lesson 5",
+  "start_s": 153.779,
+  "end_s": 156.619,
+  "text": "Lesson five. Why does drawing flicker?",
+  "heard": "Lesson 5. Why does drawing flicker?"
+ },
+ {
+  "id": "17-l5-rub",
+  "shot": "lesson 5",
+  "start_s": 156.979,
+  "end_s": 159.979,
+  "text": "The top copy rubs the figure out, then draws it again.",
+  "heard": "The top copy rubs the figure out, then draws it again."
+ },
+ {
+  "id": "18-l5-blink",
+  "shot": "lesson 5",
+  "start_s": 160.279,
+  "end_s": 163.239,
+  "text": "Watch it blink. For a moment there's only grass.",
+  "heard": "Watch it blink. For a moment there's only grass."
+ },
+ {
+  "id": "19-l5-once",
+  "shot": "lesson 5",
+  "start_s": 163.579,
+  "end_s": 167.579,
+  "text": "Draw once changes each dot just once, and never shows the gap.",
+  "heard": "Draw once changes each dot just once and never shows the gap."
+ },
+ {
+  "id": "19b-rule",
+  "shot": "lesson 5",
+  "start_s": 167.879,
+  "end_s": 172.639,
+  "text": "So never rub out and redraw. Change each dot straight to its new value.",
+  "heard": "So never rub out and redraw. Change each dot straight to its new value."
+ },
+ {
+  "id": "20-l6",
+  "shot": "lesson 6",
+  "start_s": 173.771,
+  "end_s": 177.691,
+  "text": "Lesson six. On the Spectrum, colour belongs to the cell.",
+  "heard": "Lesson 6. On the spectrum, colour belongs to the cell."
+ },
+ {
+  "id": "21a-blocks",
+  "shot": "lesson 6",
+  "start_s": 177.971,
+  "end_s": 180.931,
+  "text": "The screen is cut into blocks, eight dots square.",
+  "heard": "The screen is cut into blocks eight dots square."
+ },
+ {
+  "id": "21-l6-block",
+  "shot": "lesson 6",
+  "start_s": 181.271,
+  "end_s": 186.191,
+  "text": "Each block has one ink colour and one paper colour. Clashing blocks flash.",
+  "heard": "Each block has one ink colour and one paper colour. Clashing blocks flash."
+ },
+ {
+  "id": "21b-ink",
+  "shot": "lesson 6",
+  "start_s": 186.471,
+  "end_s": 190.231,
+  "text": "In Ink mode, every block the Mower touches takes its red ink.",
+  "heard": "In Ink mode, every block the mower touches takes its red ink."
+ },
+ {
+  "id": "21c-grass",
+  "shot": "lesson 6",
+  "start_s": 190.571,
+  "end_s": 194.811,
+  "text": "But the grass in those blocks is ink too, so it turns red as well.",
+  "heard": "but the grass in those blocks is inked too, so it turns red as well."
+ },
+ {
+  "id": "21d-nine",
+  "shot": "lesson 6",
+  "start_s": 195.171,
+  "end_s": 198.491,
+  "text": "One dot off the grid, the Mower touches nine blocks instead of four.",
+  "heard": "One dot off the grid, the mower touches nine blocks instead of four."
+ },
+ {
+  "id": "22-l6-look",
+  "shot": "lesson 6",
+  "start_s": 198.771,
+  "end_s": 203.251,
+  "text": "That frame's wrong. Look. The grass round the Mower has turned red.",
+  "heard": "That frame's wrong. Look, the grass round the mower has turned red."
+ },
+ {
+  "id": "23-sheet",
+  "shot": "sheet",
+  "start_s": 204.358,
+  "end_s": 207.998,
+  "text": "Press nine for the Sheet. It holds up to eight figures.",
+  "heard": "Press 9 for the sheet. It holds up to 8 figures."
+ },
+ {
+  "id": "24-size",
+  "shot": "sheet",
+  "start_s": 208.358,
+  "end_s": 211.398,
+  "text": "The data size counts the Row Codes a game would store.",
+  "heard": "The data size counts the row codes a game would store."
+ },
+ {
+  "id": "24b-pos",
+  "shot": "sheet",
+  "start_s": 211.758,
+  "end_s": 216.278,
+  "text": "A game often stores a figure eight times, shifted one dot further each time.",
+  "heard": "A game often stores a figure eight times, shifted one dot further each time."
+ },
+ {
+  "id": "24c-spill",
+  "shot": "sheet",
+  "start_s": 216.658,
+  "end_s": 220.898,
+  "text": "Shifting it right spills into the next byte, so each row needs three bytes.",
+  "heard": "Shifting it right spills into the next byte, so each row needs three bytes."
+ },
+ {
+  "id": "25-sum8",
+  "shot": "sheet",
+  "start_s": 221.258,
+  "end_s": 227.018,
+  "text": "Two frames, eight positions, sixteen rows, three bytes: seven hundred and sixty-eight.",
+  "heard": "two frames, eight positions, 16 rows, three bytes, 768."
+ },
+ {
+  "id": "25b-one",
+  "shot": "sheet",
+  "start_s": 227.558,
+  "end_s": 232.598,
+  "text": "Stored once, it's two frames, sixteen rows, two bytes: just sixty-four.",
+  "heard": "Stored once, it's 2 frames, 16 rows, 2 bytes, just 64."
+ },
+ {
+  "id": "26-tape",
+  "shot": "sheet",
+  "start_s": 232.958,
+  "end_s": 238.318,
+  "text": "S saves the sheet to tape. X exports the figure, ready for a game.",
+  "heard": "S saves the sheet to tape. X exports the figure, ready for a game."
+ }
+]

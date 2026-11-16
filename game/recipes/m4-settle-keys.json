@@ -1,0 +1,1 @@
+{"keys": "100-104:2;110-111:l;126-127:ENTER;200-201:b", "frames": 400, "screenshots": [215, 260], "expect": {"state_at_end": 1, "symbols": [{"symbol": "box_w", "at_end": 16}, {"symbol": "box_h", "at_end": 24}]}}

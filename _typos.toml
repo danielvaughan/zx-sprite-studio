@@ -1,0 +1,38 @@
+# Spelling (typos). Add a game's own words below the shared ones, each with a reason.
+# In-game text inside assembly is part of the tape: never "fix" it here. Exclude it with
+# extend-ignore-re or a per-file exclude, with a comment, and tell the owner.
+
+[files]
+# Generated evidence and binary or binary-adjacent data hold hashes, logs, pixels and IDs,
+# not prose.
+extend-exclude = [
+  "game/build/", "game/verify/", "game/playtest/", "game/media-kit/", "game/demo/build/",
+  "game/demo/verify/", "review/", "assets/review/", "assets/gallery/",
+  "*.bin", "*.spr", "*.scr", "*.tap", "*.map", "*.sym", "*.lst",
+]
+
+[default]
+extend-ignore-re = [
+  # sjasmplus hex and binary literals (#C0DE, $BEEF, %0110) and 0x hex.
+  "[#$%][0-9A-Fa-f]{2,}\\b", "\\b0x[0-9A-Fa-f]+\\b",
+  # git commits and sha256 prefixes (ba0a928f, 5ba29271).
+  "\\b[0-9a-f]{7,64}\\b",
+  # Musical note values (16ths, 32nds).
+  "\\b[0-9]+(?:st|nd|rd|th)s\\b",
+  # Plurals and verbs made from upper-case names: PNGs, ANDed, INCLUDEd, DEFINEs.
+  "\\b[A-Z]{2,}(?:s|e?d|ing)\\b",
+]
+
+# Z80 assembly: local labels (.nd, .pn, .lok) are code, not words. Comments and strings are still
+# checked; a typo inside an in-game string changes the tape, so fix it only with a rebuild.
+[type.asm]
+extend-glob = ["*.asm", "*.inc"]
+extend-ignore-re = ["(?:^|[\\s,(])\\.[A-Za-z_][A-Za-z0-9_]*"]
+
+[default.extend-identifiers]
+
+[default.extend-words]
+# The Z80 index register IY (ld a,(iy+3); push iy).
+iy = "iy"
+# SkoolKit, the Spectrum disassembler, and its .skool files.
+skool = "skool"

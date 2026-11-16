@@ -1,0 +1,36 @@
+{
+ "name": "sprite-studio-loading",
+ "model": "MiniMax H3 / P-H3-Image local int8 (p-h3-image_int8_convrot)",
+ "licence_credit": "MiniMax H3",
+ "external_upload": false,
+ "template": "image_p_h3_image_edit",
+ "graph": "assets/sources/loading/sprite-studio-loading-api.json",
+ "seed": 1987,
+ "upsampler": true,
+ "lora": false,
+ "size": [
+  1024,
+  768
+ ],
+ "images": [
+  {
+   "picture": 1,
+   "path": "Wikimedia Commons: Philips 16C928-15S television (a reference photo, not included)",
+   "sha256": "4d794854bd343fbbab1e490e8fc7ef3a595845aa48271c97257faf7bfef8d1af"
+  },
+  {
+   "picture": 2,
+   "path": "mower-on-paper.png (a scratch drawing of the Mower on squared paper; not kept)",
+   "sha256": "89ce8c5299a3dbd5e41025af4aa57ce0702070cfebfcd8b36eaf59d3bbb379db"
+  }
+ ],
+ "outputs": [
+  "assets/sources/loading/sprite-studio-loading_00001_.png"
+ ],
+ "output_sha256": [
+  "e2a8ba59f302d3e9dfed59259dd7884cd3dbeb3e66cd5fb01599f44aa75fa133"
+ ],
+ "comfy_seconds": 50.8,
+ "wall_seconds": 50.9,
+ "utc": "2026-11-11T15:38:00Z"
+}

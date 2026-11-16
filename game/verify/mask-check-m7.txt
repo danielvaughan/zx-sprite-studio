@@ -1,0 +1,7 @@
+# mask-check, M7, tap sha256 d5d367981b573fab9cb264ee82812e05d92c181ca2935db8047a1b0670839e91
+# $ZX_PYTHON tools/mask_check.py 7 --style ring
+PASS  106 figures (ring); 0 differences
+# $ZX_PYTHON tools/mask_check.py 7 --style shape
+PASS  106 figures (shape); 0 differences
+# $ZX_PYTHON tools/mask_check.py 7 --style box
+PASS  106 figures (box); 0 differences

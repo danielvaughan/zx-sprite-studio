@@ -1,0 +1,501 @@
+{
+ "tool": "zx-media-kit scripts/record_demo.py 0.5.0",
+ "sim_hooks": "zx-game",
+ "game_dir": "game",
+ "milestone": 7,
+ "tap": "sprite-studio-m7.tap",
+ "tap_sha256": "d5d367981b573fab9cb264ee82812e05d92c181ca2935db8047a1b0670839e91",
+ "machine": 128,
+ "cpu_hz": 3546900,
+ "frame_tstates": 70908,
+ "fps": "295575/5909",
+ "fps_float": 50.02115417160264,
+ "sim_py_sha256": "9775a3cfff0a97e112c93521c4bbc812fbffd703171e2276ad06224e068a9752",
+ "zxaudio_py_sha256": "a1498125e8dce23223e09a7b17d8a351e6c60b56c5f7d7e17caee43d6f72fabe",
+ "video": {
+  "path": "raw.mp4",
+  "bytes": 6053387,
+  "sha256": "8e732c18082d2b0992d05543741f71bed86fd3ad223ea011629b041cdfa68390",
+  "frames": 11440,
+  "duration_s": 228.7032,
+  "size": "960x768",
+  "picture": "320x256 (256x192 + 32px border) x3 nearest-neighbour, H.264 yuv420p CRF 18, AAC 192k 44.1 kHz mono",
+  "title_card_frames": 0
+ },
+ "segments": [
+  {
+   "name": "start and desk",
+   "driver": "recipe",
+   "path": "recipes/tut-start-desk.json",
+   "driver_sha256": "ccd3eb7be7a007e7c5b2572d4dfb27e02bd788cb4a3e4ab8797cecd6952f3a54",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 410,
+   "to_frame": 1450,
+   "frames": 1040,
+   "video_start_s": 0.0,
+   "seconds": 20.791,
+   "sfx": {
+    "triggers": 1,
+    "max_lag_frames": 0,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": [
+     {
+      "frame": 561,
+      "effect": 3,
+      "channel_c_lag_frames": 0
+     }
+    ]
+   },
+   "states_in_window": [
+    {
+     "frame": 560,
+     "state": 1
+    }
+   ],
+   "songs_started_in_window": []
+  },
+  {
+   "name": "lesson 1",
+   "driver": "recipe",
+   "path": "recipes/tut-lesson1.json",
+   "driver_sha256": "ba57a8e4e8648d82dec6c03ef51ee4b423928655acf5d67e8999f41890311ba8",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 250,
+   "to_frame": 3130,
+   "frames": 2880,
+   "video_start_s": 20.791,
+   "seconds": 57.576,
+   "sfx": {
+    "triggers": 2,
+    "max_lag_frames": 0,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": [
+     {
+      "frame": 271,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     },
+     {
+      "frame": 432,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     }
+    ]
+   },
+   "states_in_window": [],
+   "songs_started_in_window": []
+  },
+  {
+   "name": "lesson 2",
+   "driver": "recipe",
+   "path": "recipes/tut-lesson2.json",
+   "driver_sha256": "cebcfdcf37ccc18595c932056d17b15339efe8519dbcc3fe6ab882fc46804c37",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 235,
+   "to_frame": 1425,
+   "frames": 1190,
+   "video_start_s": 78.367,
+   "seconds": 23.79,
+   "sfx": {
+    "triggers": 1,
+    "max_lag_frames": 0,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": [
+     {
+      "frame": 262,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     }
+    ]
+   },
+   "states_in_window": [],
+   "songs_started_in_window": []
+  },
+  {
+   "name": "lesson 4",
+   "driver": "recipe",
+   "path": "recipes/tut-lesson4.json",
+   "driver_sha256": "846ddd09a0e61ce6ae3fd3a3075c7d44cbdae9788ac1300edd7ea8b6004e0320",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 235,
+   "to_frame": 1145,
+   "frames": 910,
+   "video_start_s": 102.157,
+   "seconds": 18.192,
+   "sfx": {
+    "triggers": 3,
+    "max_lag_frames": 0,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": [
+     {
+      "frame": 242,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     },
+     {
+      "frame": 906,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     },
+     {
+      "frame": 1006,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     }
+    ]
+   },
+   "states_in_window": [],
+   "songs_started_in_window": []
+  },
+  {
+   "name": "lesson 3",
+   "driver": "recipe",
+   "path": "recipes/tut-lesson3.json",
+   "driver_sha256": "34d2c22467f94c199106db8a6762d2eec9d78dd4dd45f73bbc2a27744a9ffc76",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 235,
+   "to_frame": 1375,
+   "frames": 1140,
+   "video_start_s": 120.349,
+   "seconds": 22.79,
+   "sfx": {
+    "triggers": 3,
+    "max_lag_frames": 0,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": [
+     {
+      "frame": 242,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     },
+     {
+      "frame": 252,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     },
+     {
+      "frame": 301,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     }
+    ]
+   },
+   "states_in_window": [],
+   "songs_started_in_window": []
+  },
+  {
+   "name": "lesson 5",
+   "driver": "recipe",
+   "path": "recipes/tut-lesson5.json",
+   "driver_sha256": "4b863c86884eaf06ea287b463b912e6e45f060da6ea478ecf6f3764b19f3b54b",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 235,
+   "to_frame": 1235,
+   "frames": 1000,
+   "video_start_s": 143.139,
+   "seconds": 19.992,
+   "sfx": {
+    "triggers": 2,
+    "max_lag_frames": 0,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": [
+     {
+      "frame": 242,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     },
+     {
+      "frame": 252,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     }
+    ]
+   },
+   "states_in_window": [],
+   "songs_started_in_window": []
+  },
+  {
+   "name": "lesson 6",
+   "driver": "recipe",
+   "path": "recipes/tut-lesson6.json",
+   "driver_sha256": "0f8bf587566603b3560370d9d0af9190ccc121463898734b49a1d5892386e7d8",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 245,
+   "to_frame": 1775,
+   "frames": 1530,
+   "video_start_s": 163.131,
+   "seconds": 30.587,
+   "sfx": {
+    "triggers": 2,
+    "max_lag_frames": 0,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": [
+     {
+      "frame": 252,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     },
+     {
+      "frame": 262,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     }
+    ]
+   },
+   "states_in_window": [],
+   "songs_started_in_window": []
+  },
+  {
+   "name": "sheet",
+   "driver": "recipe",
+   "path": "recipes/tut-sheet.json",
+   "driver_sha256": "4fe28d2ae097de4cd0efa558f9821d19e38afdac2e9eb6267128d84863926064",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 240,
+   "to_frame": 1810,
+   "frames": 1570,
+   "video_start_s": 193.718,
+   "seconds": 31.387,
+   "sfx": {
+    "triggers": 2,
+    "max_lag_frames": 0,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": [
+     {
+      "frame": 251,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     },
+     {
+      "frame": 1411,
+      "effect": 1,
+      "channel_c_lag_frames": 0
+     }
+    ]
+   },
+   "states_in_window": [],
+   "songs_started_in_window": []
+  },
+  {
+   "name": "sheet saved, export",
+   "driver": "recipe",
+   "path": "recipes/tut-sheet.json",
+   "driver_sha256": "4fe28d2ae097de4cd0efa558f9821d19e38afdac2e9eb6267128d84863926064",
+   "policy_sha256": null,
+   "args": null,
+   "fixture": false,
+   "from_frame": 2900,
+   "to_frame": 3080,
+   "frames": 180,
+   "video_start_s": 225.105,
+   "seconds": 3.598,
+   "sfx": {
+    "triggers": 0,
+    "max_lag_frames": null,
+    "late_or_missing": 0,
+    "pass": true,
+    "entries": []
+   },
+   "states_in_window": [],
+   "songs_started_in_window": []
+  }
+ ],
+ "audio": {
+  "peak_dbfs": -1.0,
+  "rms_dbfs": -31.49,
+  "silent_fraction_50ms_blocks_below_-60dBFS": 0.9495,
+  "clipped_samples": 0,
+  "gain_applied": 4.6422
+ },
+ "music_check": {
+  "pass": true,
+  "runs": {
+   "recipes/tut-start-desk.json": [],
+   "recipes/tut-lesson1.json": [],
+   "recipes/tut-lesson2.json": [],
+   "recipes/tut-lesson4.json": [],
+   "recipes/tut-lesson3.json": [],
+   "recipes/tut-lesson5.json": [],
+   "recipes/tut-lesson6.json": [],
+   "recipes/tut-sheet.json": []
+  },
+  "method": "zx-game audio_check.Capture inside the recording run: AY R0-R12 after every ayp_play call vs the song's zx-assets ayframes reference"
+ },
+ "ay_log_check": {
+  "recipes/tut-start-desk.json": {
+   "boundaries": 1040,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "pass": true
+  },
+  "recipes/tut-lesson1.json": {
+   "boundaries": 2880,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "pass": true
+  },
+  "recipes/tut-lesson2.json": {
+   "boundaries": 1190,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "pass": true
+  },
+  "recipes/tut-lesson4.json": {
+   "boundaries": 910,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "pass": true
+  },
+  "recipes/tut-lesson3.json": {
+   "boundaries": 1140,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "pass": true
+  },
+  "recipes/tut-lesson5.json": {
+   "boundaries": 1000,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "pass": true
+  },
+  "recipes/tut-lesson6.json": {
+   "boundaries": 1530,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "pass": true
+  },
+  "recipes/tut-sheet.json": {
+   "boundaries": 1750,
+   "mismatches": 0,
+   "first_mismatch": null,
+   "pass": true
+  }
+ },
+ "sfx_check": {
+  "pass": true,
+  "triggers": 16,
+  "method": "every sfx_start entry (frame, A) in the shown windows and the lag to its first audible channel C write in the rendered AY log; with --xcheck-triggers an independent sfx_triggers.py run per driver must give the same list from the first recorded frame (earlier boot-time triggers are ignored and counted)",
+  "xcheck_triggers": {}
+ },
+ "av": {
+  "video_frames": 11440,
+  "video_fps": "295575/5909",
+  "video_duration_s": 228.703239,
+  "audio_duration_s": 228.702993,
+  "expected_duration_s": 228.7032394485325,
+  "container_av_duration_diff_ms": -0.246,
+  "audio_offset_ms_early": 0.0,
+  "audio_offset_ms_late": 0.0,
+  "measured_drift_ms": 0.0,
+  "probe_points_s": [
+   21.25,
+   217.15
+  ],
+  "expected_audio_samples": 10085813,
+  "rendered_audio_samples": 10085813,
+  "sample_lock_residual_samples": -0.1403
+ },
+ "extras": {
+  "poster": {
+   "path": "raw.poster.png",
+   "segment": 0,
+   "frame": 930
+  }
+ },
+ "compute": {
+  "emulation_s": 82.92,
+  "capture_and_audio_s": 90.18,
+  "encode_s": 13.39,
+  "total_s": 108.47,
+  "video_seconds_per_compute_minute": 126.5
+ },
+ "warnings": [],
+ "edl": {
+  "title": "Sprite Studio",
+  "subtitle": "ZX Spectrum 128K",
+  "title_card": 0,
+  "end_card": 0,
+  "fade_in": 0.001,
+  "fade_out": 0.001,
+  "segments": [
+   {
+    "name": "start and desk",
+    "recipe": "recipes/tut-start-desk.json",
+    "from": 410,
+    "to": 1450
+   },
+   {
+    "name": "lesson 1",
+    "recipe": "recipes/tut-lesson1.json",
+    "from": 250,
+    "to": 3130
+   },
+   {
+    "name": "lesson 2",
+    "recipe": "recipes/tut-lesson2.json",
+    "from": 235,
+    "to": 1425
+   },
+   {
+    "name": "lesson 4",
+    "recipe": "recipes/tut-lesson4.json",
+    "from": 235,
+    "to": 1145
+   },
+   {
+    "name": "lesson 3",
+    "recipe": "recipes/tut-lesson3.json",
+    "from": 235,
+    "to": 1375
+   },
+   {
+    "name": "lesson 5",
+    "recipe": "recipes/tut-lesson5.json",
+    "from": 235,
+    "to": 1235
+   },
+   {
+    "name": "lesson 6",
+    "recipe": "recipes/tut-lesson6.json",
+    "from": 245,
+    "to": 1775
+   },
+   {
+    "name": "sheet",
+    "recipe": "recipes/tut-sheet.json",
+    "from": 240,
+    "to": 1810
+   },
+   {
+    "name": "sheet saved, export",
+    "recipe": "recipes/tut-sheet.json",
+    "from": 2900,
+    "to": 3080
+   }
+  ]
+ }
+}

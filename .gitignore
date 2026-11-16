@@ -1,0 +1,33 @@
+# Spectrum artefacts are not committed, except our own milestone and media-kit tapes
+*.tap
+*.tzx
+!game/build/*.tap
+!game/media-kit/**/*.tap
+*.z80
+*.szx
+*.sna
+*.skool
+*.rzx
+*.pzx
+*.csw
+# Build output (milestone tapes above are kept)
+game/build/*
+!game/build/*.tap
+/build/
+game/playtest/scratch/
+# Local tooling, settings and secrets
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+*.tmp
+*.partial.mp4
+# Audio previews (zx-assets *-ay.wav and the like) are rebuilt from committed data; the toolkit ignored them too
+*.wav

@@ -1,0 +1,12 @@
+# tape-check, M6, tap sha256 d8bf5be67877068931b33b9fb4fa4e252f7aab752b14b18265b6b47388d19a6f
+# $ZX_PYTHON tools/tape_check.py 6
+saved: 3 blocks (17, 165, 4096 bytes), build/sheet-check.tap
+figure 1 (MOWER): head, frames and masks as saved
+figure 2 (FIGURE 2): head, frames and masks as saved
+drawing after the load: inked 3 -> 4, Undo -> 3
+Undo of the load: 2 figures -> 1 (the sheet before)
+load broken off: the sheet as it was, the Sheet page still open
+load not a sheet: the sheet as it was, the Sheet page still open
+ROM save: 50294 MIC edges, back on the Sheet page
+ROM load with no tape, SPACE: stopped, the Sheet page and the sheet as they were
+PASS  tape: saved, loaded whole, drawn on, undone

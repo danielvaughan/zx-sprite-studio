@@ -1,0 +1,418 @@
+[
+ {
+  "id": "01-hello",
+  "text": "Hello, I'm Joo, the sprite artist at Dallex. This is Sprite Studio.",
+  "temperature": 0.7,
+  "seconds": 4.96,
+  "words": 12,
+  "heard": "Hello, I'm Ju, the sprite artist at Daleks. This is Sprite Studio."
+ },
+ {
+  "id": "02-paper",
+  "text": "It's my squared paper, on the one two eight K Spectrum.",
+  "temperature": 0.7,
+  "seconds": 3.24,
+  "words": 11,
+  "heard": "It's my squared paper on the 128k spectrum."
+ },
+ {
+  "id": "03-keys",
+  "text": "Press two for the keys. Q, A, O and P move the cursor.",
+  "temperature": 0.7,
+  "seconds": 4.44,
+  "words": 13,
+  "heard": "Press 2 for the keys. Q, A, O and P move the cursor."
+ },
+ {
+  "id": "04-paint",
+  "text": "Press space to paint a square. Hold it and move to draw a line.",
+  "temperature": 0.7,
+  "seconds": 3.76,
+  "words": 14,
+  "heard": "Press space to paint a square, hold it and move to draw a line."
+ },
+ {
+  "id": "04b-true",
+  "text": "The pictures at the top show it at true size, as a player sees it.",
+  "temperature": 0.7,
+  "seconds": 3.84,
+  "words": 15,
+  "heard": "The pictures at the top show it at true size as a player sees it."
+ },
+ {
+  "id": "04c-hex",
+  "text": "And the numbers beside each row are that row's two bytes, in hex.",
+  "temperature": 0.7,
+  "seconds": 4.16,
+  "words": 13,
+  "heard": "and the numbers beside each row are that row's two bytes in hex."
+ },
+ {
+  "id": "05-lessons",
+  "text": "Press nought for the Lessons, from my drawing chapter.",
+  "temperature": 0.7,
+  "seconds": 3.12,
+  "words": 9,
+  "heard": "Press 0 for the lessons from my drawing chapter."
+ },
+ {
+  "id": "06-l1",
+  "text": "Lesson one. A figure is just rows of dots.",
+  "temperature": 0.7,
+  "seconds": 3.56,
+  "words": 9,
+  "heard": "Lesson 1. A figure is just rows of dots."
+ },
+ {
+  "id": "07a-bits",
+  "text": "Every square is one bit: inked is a one, empty is a zero.",
+  "temperature": 0.7,
+  "seconds": 4.44,
+  "words": 13,
+  "heard": "Every square is one bit. Inked is a 1, empty is a 0."
+ },
+ {
+  "id": "07b-bytes",
+  "text": "Eight squares make a byte, so a row of sixteen is two bytes.",
+  "temperature": 0.7,
+  "seconds": 3.84,
+  "words": 13,
+  "heard": "Eight squares make a byte, so a row of sixteen is two bytes."
+ },
+ {
+  "id": "07c-worth",
+  "text": "Read a byte from the left. Its squares are worth one hundred and twenty-eight,",
+  "temperature": 0.7,
+  "seconds": 5.08,
+  "words": 14,
+  "heard": "Read a byte from the left. Its squares are worth 128."
+ },
+ {
+  "id": "07d-worth2",
+  "text": "then sixty-four, thirty-two, sixteen, eight, four, two and one.",
+  "temperature": 0.7,
+  "seconds": 4.92,
+  "words": 9,
+  "heard": "then 64 32 16 8 4 2 and 1"
+ },
+ {
+  "id": "07e-row1",
+  "text": "On row one of the Mower, squares two and four are inked.",
+  "temperature": 0.7,
+  "seconds": 3.56,
+  "words": 12,
+  "heard": "On row one of the mower, squares two and four are inked."
+ },
+ {
+  "id": "07f-add",
+  "text": "They're worth thirty-two and eight. Add them up, and you get forty.",
+  "temperature": 0.7,
+  "seconds": 4.56,
+  "words": 12,
+  "heard": "They're worth 32 and 8. Add them up and you get 40."
+ },
+ {
+  "id": "07g-hex",
+  "text": "In hex, forty is two sixteens and eight, so it's written two eight.",
+  "temperature": 0.7,
+  "seconds": 5.2,
+  "words": 13,
+  "heard": "in hex. Forty is two sixteens and eight, so it's written two eight."
+ },
+ {
+  "id": "07h-right",
+  "text": "The right half of the row is empty, so that byte is zero zero.",
+  "temperature": 0.7,
+  "seconds": 3.76,
+  "words": 14,
+  "heard": "The right half of the row is empty, so that byte is zero, zero."
+ },
+ {
+  "id": "07i-f",
+  "text": "Now I'll ink the very last square, worth one. Watch the right byte.",
+  "temperature": 0.7,
+  "seconds": 5.64,
+  "words": 13,
+  "heard": "Now I'll ink the very last square, worth one. Watch the right bite."
+ },
+ {
+  "id": "07j-01",
+  "text": "It reads zero one. You can read any sprite this way, a row at a time.",
+  "temperature": 0.7,
+  "seconds": 4.6,
+  "words": 16,
+  "heard": "It reads 01. You can read any sprite this way, a row at a time."
+ },
+ {
+  "id": "08-l2",
+  "text": "Lesson two. Tracing paper shows the last frame as little rings.",
+  "temperature": 0.7,
+  "seconds": 4.24,
+  "words": 11,
+  "heard": "Lesson 2. Tracing paper shows the last frame as little rings."
+ },
+ {
+  "id": "08b-anim",
+  "text": "A moving figure is just a few pictures, shown one after another.",
+  "temperature": 0.7,
+  "seconds": 3.92,
+  "words": 12,
+  "heard": "A moving figure is just a few pictures shown one after another."
+ },
+ {
+  "id": "08c-rows",
+  "text": "The Mower's two frames differ in only four rows, at its corners.",
+  "temperature": 0.7,
+  "seconds": 3.92,
+  "words": 12,
+  "heard": "The mower's two frames differ in only four rows, at its corners."
+ },
+ {
+  "id": "09-l2-play",
+  "text": "And the flip book plays both frames, at the speed the game uses.",
+  "temperature": 0.7,
+  "seconds": 3.68,
+  "words": 13,
+  "heard": "and the flipbook plays both frames at the speed the game uses."
+ },
+ {
+  "id": "09b-speed",
+  "text": "Each picture stays up for four TV frames: nought point nought eight seconds.",
+  "temperature": 0.7,
+  "seconds": 5.12,
+  "words": 13,
+  "heard": "Each picture stays up for 4 TV frames, 0.08 seconds."
+ },
+ {
+  "id": "10-l4",
+  "text": "Lesson four, the mask. It clears the scenery under the figure.",
+  "temperature": 0.7,
+  "seconds": 4.6,
+  "words": 11,
+  "heard": "Lesson 4: The mask. It clears the scenery under the figure."
+ },
+ {
+  "id": "11-l4-ring",
+  "text": "The Ring mask adds one dot all round the ink. F changes it.",
+  "temperature": 0.7,
+  "seconds": 4.0,
+  "words": 13,
+  "heard": "The ring mask adds one dot all round the ink. F changes it."
+ },
+ {
+  "id": "11b-ring",
+  "text": "The hatched squares are covered: the ink, the paper inside, and a ring.",
+  "temperature": 0.7,
+  "seconds": 3.92,
+  "words": 13,
+  "heard": "The hatched squares are covered, the ink, the paper inside and a ring."
+ },
+ {
+  "id": "12-l4-box",
+  "text": "Shape has no ring. Box covers the whole box.",
+  "temperature": 0.7,
+  "seconds": 3.48,
+  "words": 9,
+  "heard": "Shape has no ring. Box covers the whole box."
+ },
+ {
+  "id": "13-l3",
+  "text": "Lesson three. The Test Ground puts it down three ways.",
+  "temperature": 0.7,
+  "seconds": 4.16,
+  "words": 10,
+  "heard": "Lesson three. The test ground puts it down three ways."
+ },
+ {
+  "id": "14-l3-copy",
+  "text": "Copy wipes out the grass in its box. Mix lets the grass show through.",
+  "temperature": 0.6,
+  "seconds": 4.4,
+  "words": 14,
+  "heard": "Copy wipes out the grass in its box. Mix lets the grass show through."
+ },
+ {
+  "id": "14b-mix",
+  "text": "That's quick, but in busy grass the figure gets hard to see.",
+  "temperature": 0.7,
+  "seconds": 3.36,
+  "words": 12,
+  "heard": "That's quick, but in busy grass the figure gets hard to see."
+ },
+ {
+  "id": "15-l3-mask",
+  "text": "Mask then mix clears the grass under the mask, then adds the ink.",
+  "temperature": 0.6,
+  "seconds": 4.8,
+  "words": 13,
+  "heard": "Mask then mix clears the grass under the mask Then adds the ink"
+ },
+ {
+  "id": "15b-clean",
+  "text": "The figure stays solid, with the grass right up to its edge.",
+  "temperature": 0.7,
+  "seconds": 3.6,
+  "words": 12,
+  "heard": "The figure stays solid, with the grass right up to its edge."
+ },
+ {
+  "id": "16-l5",
+  "text": "Lesson five. Why does drawing flicker?",
+  "temperature": 0.7,
+  "seconds": 2.84,
+  "words": 6,
+  "heard": "Lesson 5. Why does drawing flicker?"
+ },
+ {
+  "id": "17-l5-rub",
+  "text": "The top copy rubs the figure out, then draws it again.",
+  "temperature": 0.7,
+  "seconds": 3.0,
+  "words": 11,
+  "heard": "The top copy rubs the figure out, then draws it again."
+ },
+ {
+  "id": "18-l5-blink",
+  "text": "Watch it blink. For a moment there's only grass.",
+  "temperature": 0.7,
+  "seconds": 2.96,
+  "words": 9,
+  "heard": "Watch it blink. For a moment there's only grass."
+ },
+ {
+  "id": "19-l5-once",
+  "text": "Draw once changes each dot just once, and never shows the gap.",
+  "temperature": 0.7,
+  "seconds": 4.0,
+  "words": 12,
+  "heard": "Draw once changes each dot just once and never shows the gap."
+ },
+ {
+  "id": "19b-rule",
+  "text": "So never rub out and redraw. Change each dot straight to its new value.",
+  "temperature": 0.7,
+  "seconds": 4.76,
+  "words": 14,
+  "heard": "So never rub out and redraw. Change each dot straight to its new value."
+ },
+ {
+  "id": "20-l6",
+  "text": "Lesson six. On the Spectrum, colour belongs to the cell.",
+  "temperature": 0.7,
+  "seconds": 3.92,
+  "words": 10,
+  "heard": "Lesson 6. On the spectrum, colour belongs to the cell."
+ },
+ {
+  "id": "21a-blocks",
+  "text": "The screen is cut into blocks, eight dots square.",
+  "temperature": 0.7,
+  "seconds": 2.96,
+  "words": 9,
+  "heard": "The screen is cut into blocks eight dots square."
+ },
+ {
+  "id": "21-l6-block",
+  "text": "Each block has one ink colour and one paper colour. Clashing blocks flash.",
+  "temperature": 0.7,
+  "seconds": 4.92,
+  "words": 13,
+  "heard": "Each block has one ink colour and one paper colour. Clashing blocks flash."
+ },
+ {
+  "id": "21b-ink",
+  "text": "In Ink mode, every block the Mower touches takes its red ink.",
+  "temperature": 0.7,
+  "seconds": 3.76,
+  "words": 12,
+  "heard": "In Ink mode, every block the mower touches takes its red ink."
+ },
+ {
+  "id": "21c-grass",
+  "text": "But the grass in those blocks is ink too, so it turns red as well.",
+  "temperature": 0.7,
+  "seconds": 4.24,
+  "words": 15,
+  "heard": "but the grass in those blocks is inked too, so it turns red as well."
+ },
+ {
+  "id": "21d-nine",
+  "text": "One dot off the grid, the Mower touches nine blocks instead of four.",
+  "temperature": 0.7,
+  "seconds": 3.32,
+  "words": 13,
+  "heard": "One dot off the grid, the mower touches nine blocks instead of four."
+ },
+ {
+  "id": "22-l6-look",
+  "text": "That frame's wrong. Look. The grass round the Mower has turned red.",
+  "temperature": 0.7,
+  "seconds": 4.48,
+  "words": 12,
+  "heard": "That frame's wrong. Look, the grass round the mower has turned red."
+ },
+ {
+  "id": "23-sheet",
+  "text": "Press nine for the Sheet. It holds up to eight figures.",
+  "temperature": 0.7,
+  "seconds": 3.64,
+  "words": 11,
+  "heard": "Press 9 for the sheet. It holds up to 8 figures."
+ },
+ {
+  "id": "24-size",
+  "text": "The data size counts the Row Codes a game would store.",
+  "temperature": 0.7,
+  "seconds": 3.04,
+  "words": 11,
+  "heard": "The data size counts the row codes a game would store."
+ },
+ {
+  "id": "24b-pos",
+  "text": "A game often stores a figure eight times, shifted one dot further each time.",
+  "temperature": 0.7,
+  "seconds": 4.52,
+  "words": 14,
+  "heard": "A game often stores a figure eight times, shifted one dot further each time."
+ },
+ {
+  "id": "24c-spill",
+  "text": "Shifting it right spills into the next byte, so each row needs three bytes.",
+  "temperature": 0.7,
+  "seconds": 4.24,
+  "words": 14,
+  "heard": "Shifting it right spills into the next byte, so each row needs three bytes."
+ },
+ {
+  "id": "25-sum8",
+  "text": "Two frames, eight positions, sixteen rows, three bytes: seven hundred and sixty-eight.",
+  "temperature": 0.7,
+  "seconds": 5.76,
+  "words": 12,
+  "heard": "two frames, eight positions, 16 rows, three bytes, 768."
+ },
+ {
+  "id": "25b-one",
+  "text": "Stored once, it's two frames, sixteen rows, two bytes: just sixty-four.",
+  "temperature": 0.7,
+  "seconds": 5.04,
+  "words": 11,
+  "heard": "Stored once, it's 2 frames, 16 rows, 2 bytes, just 64."
+ },
+ {
+  "id": "26-tape",
+  "text": "S saves the sheet to tape. X exports the figure, ready for a game.",
+  "temperature": 0.7,
+  "seconds": 5.36,
+  "words": 14,
+  "heard": "S saves the sheet to tape. X exports the figure, ready for a game."
+ },
+ {
+  "id": "27-bye",
+  "text": "Now draw something, flip it, and show me. I'll find your stray pixel.",
+  "temperature": 0.7,
+  "seconds": 5.12,
+  "words": 13,
+  "heard": "Now draw something, flip it and show me. I'll find your stray pixel."
+ }
+]

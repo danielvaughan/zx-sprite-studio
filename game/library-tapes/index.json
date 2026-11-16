@@ -1,0 +1,201 @@
+[
+ {
+  "tape": "mower-mayhem.tap",
+  "file": "MOWER M 1",
+  "figures": [
+   "BEAM/SET 1 32X16",
+   "BEAM/SET 2 24X32",
+   "BEAM/SET 3 24X24",
+   "BIRD/PECK 16X16",
+   "BIRD/FLY 16X16",
+   "BIRD/ARRIVE 16X16",
+   "BURST/BURST 16X16",
+   "CAT PEEK/PEEK 8X16"
+  ]
+ },
+ {
+  "tape": "mower-mayhem.tap",
+  "file": "MOWER M 2",
+  "figures": [
+   "CAT/RUN 24X16",
+   "CAT/POSES 24X16",
+   "HEDGEHOG/SCURRY E 16X16",
+   "HEDGEHOG/SCURRY S 16X16",
+   "HEDGEHOG/POSES 16X16",
+   "MOWER/ROLL E 16X16",
+   "MOWER/ROLL SE 16X16",
+   "MOWER/ROLL S 16X16"
+  ]
+ },
+ {
+  "tape": "mower-mayhem.tap",
+  "file": "MOWER M 3",
+  "figures": [
+   "MOWER/ROLL SW 16X16",
+   "MOWER/ROLL W 16X16",
+   "MOWER/ROLL NW 16X16",
+   "MOWER/ROLL N 16X16",
+   "MOWER/ROLL NE 16X16",
+   "MOWER/POSES 16X16",
+   "STOP ARC/POSES 16X16"
+  ]
+ },
+ {
+  "tape": "tiger-gorilla.tap",
+  "file": "TIGER G 1",
+  "figures": [
+   "BABY/FEED 16X16",
+   "BABY/POSES 16X16",
+   "DRONE/HOVER 16X8",
+   "DRONE/POSES 16X8",
+   "CROC/POSES 32X16",
+   "ALERT/POSES 8X8",
+   "JET/DOWN 16X16",
+   "JET/SIDE 16X16"
+  ]
+ },
+ {
+  "tape": "tiger-gorilla.tap",
+  "file": "TIGER G 2",
+  "figures": [
+   "CLOUD/PUFF 16X16",
+   "FLASH/POSES 16X16",
+   "STARS/STARS 16X8",
+   "GORILLA/RUN 32X32",
+   "SCARLET/FLY 16X16",
+   "SCARLET/POSES 16X16",
+   "PARROT/FLY 16X16",
+   "PARROT/POSES 16X16"
+  ]
+ },
+ {
+  "tape": "tiger-gorilla.tap",
+  "file": "TIGER G 3",
+  "figures": [
+   "SNAPPER/PATROL 16X24",
+   "SNAPPER/FOCUSING 16X24",
+   "SNAPPER/POSES 16X24"
+  ]
+ },
+ {
+  "tape": "gold-master.tap",
+  "file": "GOLD MA 1",
+  "figures": [
+   "BRIAN/POSES 24X32",
+   "BUG/CRAWL 16X8",
+   "BUG/POP 16X16",
+   "BUG/POSES 8X8",
+   "MODES/SET 1 16X16",
+   "MODES/SET 2 8X8",
+   "ICONS/SPARKLE 8X8",
+   "ICONS/SET 1 16X16"
+  ]
+ },
+ {
+  "tape": "gold-master.tap",
+  "file": "GOLD MA 2",
+  "figures": [
+   "ICONS/SET 2 16X16",
+   "ICONS/SET 3 16X16",
+   "ICONS/SET 4 32X32",
+   "ICONS/SET 5 8X8",
+   "ITEMS/SET 1 16X16",
+   "ITEMS/SET 2 16X16",
+   "ITEMS/SET 3 8X8",
+   "ITEMS/SET 4 8X8"
+  ]
+ },
+ {
+  "tape": "gold-master.tap",
+  "file": "GOLD MA 3",
+  "figures": [
+   "MO/WALK 16X24",
+   "MO/WALK UP 16X24",
+   "MO/SIDEWAYS 16X24",
+   "ROBOT/IDLE 24X32",
+   "ROBOT/SET 1 24X32",
+   "ROBOT/SET 2 16X8",
+   "ROBOT/SET 3 16X16",
+   "PERCY/WALK 16X16"
+  ]
+ },
+ {
+  "tape": "gold-master.tap",
+  "file": "GOLD MA 4",
+  "figures": [
+   "PERCY/POSES 16X16"
+  ]
+ },
+ {
+  "tape": "antigravity.tap",
+  "file": "ANTIGRAV",
+  "figures": [
+   "LASER/POSES 16X8",
+   "ROBIN/POSES 16X16",
+   "SENTRY/POSES 16X8",
+   "STATION/POSES 16X16"
+  ]
+ },
+ {
+  "tape": "all-disco.tap",
+  "file": "ALL DIS 1",
+  "figures": [
+   "DAN/DIZZY 16X24",
+   "DAN/POSES 16X24",
+   "FRED/DANCE 16X24",
+   "FRED/POSES 16X24",
+   "EFFECTS/STARS 16X8",
+   "EFFECTS/POSES 16X8",
+   "HELPERS/JOO 16X24",
+   "HELPERS/DEZ 16X24"
+  ]
+ },
+ {
+  "tape": "all-disco.tap",
+  "file": "ALL DIS 2",
+  "figures": [
+   "HELPERS/POSES 16X24",
+   "RON/DANCE 16X24",
+   "RON/POSES 16X24"
+  ]
+ },
+ {
+  "tape": "wolf.tap",
+  "file": "WOLF 1",
+  "figures": [
+   "GYM/DEADLIFT 24X32",
+   "GYM/PULLDOWN 24X32",
+   "GYM/CHINUP 24X32",
+   "GYM/PRESS 24X32",
+   "GYM/POSES 24X32",
+   "BODY/WALK 32X32",
+   "BODY/SQUAT 24X32",
+   "BODY/SLED 24X32"
+  ]
+ },
+ {
+  "tape": "wolf.tap",
+  "file": "WOLF 2",
+  "figures": [
+   "BODY/BELL 24X32",
+   "BODY/POSES 24X32",
+   "PROPS/POSES 8X8",
+   "PROPS/PLATE 16X8",
+   "PROPS/POSES 2 8X8",
+   "PROPS/POSES 3 8X8",
+   "PROPS/POSES 4 8X8",
+   "PROPS/POSES 5 8X8"
+  ]
+ },
+ {
+  "tape": "wolf.tap",
+  "file": "WOLF 3",
+  "figures": [
+   "PROPS/SLED 24X16",
+   "PROPS/BELL 16X16",
+   "PROPS/STAR 16X16",
+   "PROPS/WATER 8X8",
+   "PROPS/SET 1 8X8"
+  ]
+ }
+]
