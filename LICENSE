@@ -20,12 +20,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
-
-This licence covers the code only: the Z80 source, the Python tools and the
-build and check scripts. Art, video, audio and text are licensed separately
-under CC BY-NC 4.0; see LICENSE-ASSETS.md for exactly which files that covers.
-
-Neither licence covers the Dalex Software name or logo, or its characters
-(Hyun-joo Lee, known as Joo, Michaela Hebden and the rest of the cast). All
-rights in those are reserved.
